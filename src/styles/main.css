@@ -6,9 +6,9 @@
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #A1A1A1;
+  border-bottom-color: var(--clr-secondary);
 
-  padding-bottom: 24px;
+  padding-bottom: 72px;
 }
 
 .title-img {
@@ -21,14 +21,83 @@
 
 .subtitle {
   font-size: 1.2rem;
-  background-color: #A1A1A1;
-  color: white;
+  background-color: var(--clr-secondary);
+  color: var(--clr-primary);
   max-width: 600px;
   text-align: center;
   align-self: center;
   padding: 10px;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--clr-accent);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 4rem;
+
+}
+
+.chapter-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  font-weight: normal;
+  /* color: var(--clr-secondary); */
+
+  img {
+    height: 1.5rem;
+  }
+}
+
+.graphic-full-width {
+  min-width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+
+  p {
+    margin-top: 0.6rem;
+    text-align: center;
+  }
+}
+
+.with-graphic-sidebar {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.graphic-in-sidebar {
+  min-width: 200px;
+  max-width: 520px;
+  margin-inline: auto;
+
+  p {
+    margin-top: 0.6rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 760px) {
+  .with-graphic-sidebar {
+    gap: 20px;
+    grid-template-columns: 490px 1fr;
+  }
+
+  h2 {
+    text-align: left;
+  }
+}
 
 .flip-card {
   background-color: transparent;

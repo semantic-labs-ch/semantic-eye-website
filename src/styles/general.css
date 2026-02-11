@@ -1,20 +1,55 @@
+:root {
+  --clr-light: #F0F0F0;
+  --clr-dark: #130023;
+  --clr-primary: var(--clr-light);
+  --clr-secondary: #A1A1A1;
+  --clr-accent: #A23200;
+  --clr-contrast: var(--clr-dark);
+}
+
 body {
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   font-weight: lighter;
-  color: #E0E0E0;
+  color: var(--clr-light);
   margin: 0;
   padding-top: 96px;
-  padding-left: 96px;
+  padding-left: 24px;
   padding-right: 24px;
-  background-color: #14082D;
+  background-color: var(--clr-dark);
   /* background-color: rgb(248, 248, 248); */
 }
 
-p {
+p,
+ul,
+li {
   margin-top: 0;
+  margin-block-start: 0;
   margin-bottom: 0;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  max-width: 600px;
+  line-height: 1.6rem;
+}
+/* 
+ul {
+  margin-top: 0;
+} */
+
+em {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.air {
+  margin-top: 0.8rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin-inline: auto;
 }
