@@ -24,7 +24,7 @@ li {
   margin: 0;
   margin-block-start: 0;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 1.9rem;
 }
 
 em {
@@ -41,13 +41,6 @@ em {
 .standout {
   color: var(--clr-accent);
   font-weight: normal;
-}
-
-.horizontal-line-top {
-  padding-top:72px;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: var(--clr-secondary);
 }
 
 img {

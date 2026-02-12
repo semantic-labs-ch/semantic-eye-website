@@ -1,17 +1,15 @@
 .semantic-eye-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 4em;
+  padding-bottom: 5rem;
 
-  padding-bottom: 36px;
+  display: grid;
+  justify-items: center;
+  row-gap: 4em;
 }
 
 .title-img {
   min-width: 200px;
   width: 60%;
   max-width: 600px;
-  align-self: center;
 
 }
 
@@ -20,15 +18,13 @@
   font-size: 1.2rem;
   background-color: var(--clr-secondary);
   color: var(--clr-primary);
-  text-align: center;
-  align-self: center;
-  padding: 10px;
+  padding: 0.8rem 1.6rem;
 }
 
 .take-away {
-  margin-top: 24px;
-
- overflow: hidden;
+  margin-top: 4rem;
+  justify-self: center;
+  text-align: center;
 }
 
 h1,
@@ -42,6 +38,17 @@ h2 {
   text-align: center;
   margin-top: 4rem;
 
+}
+
+.chapter {
+  padding-top:0;
+  padding-bottom: 4rem;
+  
+  display: grid;
+  justify-items: center;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: var(--clr-secondary);
 }
 
 .chapter-intro {
@@ -62,8 +69,8 @@ h2 {
 
 .graphic-full-width {
   min-width: 200px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-inline: auto;
 
   p {
@@ -73,16 +80,21 @@ h2 {
 }
 
 .with-graphic-sidebar {
-  display: grid;
-  gap: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+  align-content: start;
 }
 
 .graphic-in-sidebar {
+  display: grid;
+  justify-items: center;
   min-width: 200px;
   max-width: 520px;
-  margin-inline: auto;
+  /* margin-inline: auto; */
 
   p {
     margin-top: 0.6rem;
