@@ -4,11 +4,7 @@
   justify-content: center;
   row-gap: 4em;
 
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--clr-secondary);
-
-  padding-bottom: 72px;
+  padding-bottom: 36px;
 }
 
 .title-img {
@@ -19,14 +15,20 @@
 
 }
 
-.subtitle {
+.subtitle,
+.take-away {
   font-size: 1.2rem;
   background-color: var(--clr-secondary);
   color: var(--clr-primary);
-  max-width: 600px;
   text-align: center;
   align-self: center;
   padding: 10px;
+}
+
+.take-away {
+  margin-top: 24px;
+
+ overflow: hidden;
 }
 
 h1,

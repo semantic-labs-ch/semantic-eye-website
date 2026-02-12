@@ -8,7 +8,6 @@
 }
 
 body {
-  /* This style below will be inherited */
   font-family: Roboto, Arial;
   font-weight: lighter;
   color: var(--clr-light);
@@ -17,21 +16,16 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   background-color: var(--clr-dark);
-  /* background-color: rgb(248, 248, 248); */
 }
 
 p,
 ul,
 li {
-  margin-top: 0;
+  margin: 0;
   margin-block-start: 0;
-  margin-bottom: 0;
-  line-height: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
-/* 
-ul {
-  margin-top: 0;
-} */
 
 em {
   padding-left: 0.1rem;
@@ -44,11 +38,34 @@ em {
   margin-top: 0.8rem;
 }
 
+.standout {
+  color: var(--clr-accent);
+  font-weight: normal;
+}
+
+.horizontal-line-top {
+  padding-top:72px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: var(--clr-secondary);
+}
+
 img {
   display: block;
   max-width: 100%;
 }
 
+
+a:link {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--clr-secondary);
+}
+
+/* Facilitate responsive pages: */
 .wrapper {
   max-width: 1000px;
   margin-inline: auto;
