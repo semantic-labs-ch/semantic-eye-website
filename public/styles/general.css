@@ -12,19 +12,21 @@ body {
   font-weight: lighter;
   color: var(--clr-light);
   margin: 0;
-  padding-top: 96px;
+  padding-top: 60px;
   padding-left: 24px;
   padding-right: 24px;
   background-color: var(--clr-dark);
 }
 
 p,
+ol,
 ul,
 li {
   margin: 0;
   margin-block-start: 0;
   font-size: 1.2rem;
   line-height: 1.9rem;
+  text-align: start;
 }
 
 em {
