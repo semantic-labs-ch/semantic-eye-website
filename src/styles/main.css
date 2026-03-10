@@ -26,7 +26,8 @@ h3 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
   margin-top: 4rem;
 
@@ -129,7 +130,7 @@ li > p {
   }
 }
 
-.multi-column-text {
+.multi-column-text, .two-column-text {
   display: grid;
   grid-template-columns: minmax(500px, 700px);
   margin-top: 1rem;
@@ -146,6 +147,12 @@ li > p {
 	  gap: 24px;
 	  grid-template-columns:
 		repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .two-column-text {
+	  gap: 24px;
+	  grid-template-columns:
+		500px 500px;
+    margin-inline: auto;
   }
 }
 
