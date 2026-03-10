@@ -9,7 +9,7 @@ Only: Digital transformation is a high-risk endeavor as is sadly evidenced by ma
 Each organisation is different, however, two typical digitalisation scenarios have emerged over time.
 
 ### 1. Established, Standardized Field
-Organisations that are active in well-understood subject areas and relying on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.
+Organisations that are active in well-understood subject areas and that rely on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.
 
 The organisation will mostly adopt the out-of-the box modules and processes as provided by that solution; 
 the new solution is branded and customised through configuration rather than full-on software development.{.take-away}
@@ -46,9 +46,9 @@ Failure is then a matter of time.<br>
 _Can this be avoided?_{.standout}
 
 We need to _change the narrative_{.standout} in order to contain the great threat and risks
-that a digital transformation creates for organisations:
+that a digital transformations create for organisations:
 
-Organisations must take full responsibility and leadership  of their own digital transformation
+Organisations must take full responsibility and leadership of their own digital transformation
 &mdash; instead of trying to offload it to technology partners and hope for the best. {.take-away}
 
 _But how should they do that?_{.standout}

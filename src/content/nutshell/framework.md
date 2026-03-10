@@ -56,7 +56,7 @@ Organisational processes are an end-to-end description of where and how an organ
 Figure 2-4  |  What is a process?
 </div>
 
- _Every organisation has organisational processes._
+ Every organisation has organisational processes.{.take-away}
 
 They are arguably the most frequent and relevant subjects of digital transformations. Organisational processes are the kingpin of the Semantic Eye Framework and thus receive great support by the Framework.
 </div><div>
@@ -71,7 +71,7 @@ At the heart of the Semantic Eye lies the «Cosmos», a _conceptual organisation
 
 The subject areas represent the «real world» with all its objects, relations and rules. The processes in the Cosmos tie the organisation to the subject areas:
 
-_who needs to do what and when._ 
+who needs to do what and when.{.take-away}
 <div class="image-with-caption">
 
 ![The organisation’s cosmos](/assets/nutshell/cosmos.svg){width="500"}
