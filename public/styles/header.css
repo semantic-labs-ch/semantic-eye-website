@@ -12,9 +12,10 @@
   z-index: 100;
 
   background-color: var(--clr-light);
-  border-bottom-width: 1px;
+  border-width: 1px;
+  border-color: var(--clr-secondary);
+  border-top-style: solid;
   border-bottom-style: solid;
-  border-bottom-color: var(--clr-secondary);
 }
 
 .header-left-section {
