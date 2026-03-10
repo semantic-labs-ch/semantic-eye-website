@@ -9,17 +9,11 @@ layout: 'base.njk'
     <p class="subtitle">The Semantic Eye focuses on processes of organisations where humans, machines and software collaborate<br>
     to achieve goals and create value in a controlled and repeatable fashion.</p>
 
-    <p>Digital transformation (short: _digitalisation_) is the support or the partial or full automation of manual activities and<br>
+    <p>Digital transformation (short: <em>digitalisation</em>) is the support or the partial or full automation of manual activities and<br>
     processes with software. Many organisations struggle with their digitalisation to the point where their existence is threatened.</p>
    </section>
-
-    <div class="chapter">
-        <h2>Page available as PDF</h2>
-        <div class="chapter-intro">
-            <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-            <a target="_blank" rel="noopener noreferrer" href="/assets/downloads/Semantic Eye in a Nutshell v0.8.2.pdf"">Read or Download as PDF (in separate Tab)</a>
-        </div>
-    </div>
+   
+   {%- include 'src/content/nutshell/download-nutshell.njk' -%}
 
    <section class="chapter">
         {%- renderFile 'src/content/nutshell/framework.md' -%}
@@ -28,4 +22,6 @@ layout: 'base.njk'
    <section class="chapter">
         {%- renderFile 'src/content/nutshell/malaise.md' -%}
    </section>
+
+   {%- include 'src/content/nutshell/download-nutshell.njk' -%}
 </main>

@@ -110,10 +110,11 @@ Each phase is best carried out in iterations towards its phase milestones.
 ## 8. Patterns
 
 Whenever languages, methods and tools are being applied, best practises for their application emerge over time and can be documented as solution _patterns_. The tool platform should provide explicit support for patterns. By their statistical nature, LLMs favour repeating patterns and can play a big role in suggesting suitable patterns. AI agents can then apply them automagically.
+</div><div>
 
-Key Benefits of the Semantic Eye Framework
+## 9. Key Benefits of the Semantic Eye Framework
 
-_Every organisation can benefit from the Semantic Eye._
+Every organisation can benefit from the Semantic Eye.{.take-away}
 
 Here are the top three benefits the Semantic Eye Framework offers to organisations:
 
@@ -124,11 +125,11 @@ Here are the top three benefits the Semantic Eye Framework offers to organisatio
 - An organisation’s Cosmos is a first-quality knowledge-capturing and -management instrument. It enables the organisation to describe, study, learn, plan, align and optimise subject areas and processes long before software is being built.
 </div><div>
 
-## 9. Where to Start?
+## 10. Where to Start?
 
 Organisations that see potential benefits in using the Semantic Eye Framework (or parts of it) for their own digital transformation should consider these steps:
 
-- Study the _«Semantic Eye White Paper_» that can be downloaded from [www.semantic-eye.org](https://www.semantic-eye.org).
+- Study the _«Semantic Eye White Paper_» that can be downloaded [over here](/pages/white-paper/index.html).
 - Get professional guidance and support from Semantic Labs ([www.semantic-labs.ch](https://www.semantic-labs.ch)).
 </div>
 </div>

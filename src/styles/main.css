@@ -49,7 +49,7 @@ li > p {
 /* ------ */
 .first-chapter, .chapter {
   padding-top:0;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   
   display: grid;
   justify-items: center;
@@ -61,7 +61,7 @@ li > p {
   border-top-color: var(--clr-secondary);
 }
 
-.chapter-intro {
+.maniculed-hint {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,15 +80,16 @@ li > p {
 .take-away {
   font-size: 1.2rem;
   padding: 0.8rem 1.6rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   justify-self: center;
   font-weight: normal;
   text-align: center;
 }
 .subtitle {
   color: var(--clr-primary);
-  background-color: hsl(from var(--clr-dark) h calc(s * 0.5) calc(l * 2));
+  background-color: var(--clr-dark-ligher);
+
 }
 
 /* ------ */
@@ -128,15 +129,23 @@ li > p {
   }
 }
 
+.multi-column-text {
+  display: grid;
+  grid-template-columns: minmax(500px, 700px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    text-align: justify;
+  }
+}
+
 /* ------ */
-@media (min-width: 1000px) {
+@media (min-width: 1088px) {
   .multi-column-text {
-    display: grid;
-	  gap: 20px;
+	  gap: 24px;
 	  grid-template-columns:
-		repeat(auto-fit, minmax(490px, 1fr));
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+		repeat(auto-fit, minmax(500px, 1fr));
   }
 }
 

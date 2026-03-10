@@ -6,14 +6,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/styles/general.css">
         <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/dropdown.css">
         <link rel="stylesheet" href="/styles/main.css">
         <link rel="stylesheet" href="/styles/footer.css">
         <title>The Semantic Eye</title>
     </head>
+    
     <body>
         <header class="header">
     <div class="header-left-section">
-        <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+            <ul class="dropdown__header">
+                <li class="dropdown__category">
+                    <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+                    <ul class="dropdown__menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/nutshell/index.html">Nutshell</a></li>
+                        <li><a href="/pages/white-paper/index.html">White Paper</a></li>
+                        <li><a href="/pages/references/index.html">References</a></li>
+                    </ul>
+                </li>
+            </ul>
     </div>
     <div class="header-middle-section">
         <input class="search-bar" type="text" placeholder="Search (inactive)">
@@ -44,14 +56,16 @@
 <h2>Different Organisations, Different Risks</h2>
 <p>Each organisation is different, however, two typical digitalisation scenarios have emerged over time.</p>
 <h3>1. Established, Standardized Field</h3>
-<p>Organisations active in well-understood subject areas and relying on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.</p>
+<p>Organisations that are active in well-understood subject areas and relying on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.</p>
+<p class="take-away">The organisation will mostly adopt the out-of-the box modules and processes as provided by that solution;<br>
+the new solution is branded and customised through configuration rather than full-on software development.</p>
 <h3>2. Non-Standard Business</h3>
 <p>Organisations with non-standard subject areas or processes have particularly high digitalisation risks.<br>
 They face two main options both of which create a strong dependency on the technology partner.</p>
 <div class="multi-column-text">
 <div>
-<p class="subtitle">a. Adopting standard, commercial software solution that needs to be adapted to their needs by a technology partner:</p>
-<p class="take-away">The organisation must adapt to the standards of the solution as much as possible; the domain experts will need to make painful sacrifices.</p>
+<p class="subtitle">a. Adopting standard, commercial software solution that needs significant adaptation to their needs by a technology partner:</p>
+<p class="take-away">The organisation must adapt to the standards of the solution as much as possible; the domain experts will need to make meaningful sacrifices.</p>
 <p>This requires a thorough understanding of that solution, its out-of-the-box processes, capabilities and limitations prior to any actual transformation steps. The technology partner will emphasise the strengths of their solution and the supposed ease of the transformation. Organisations cannot count on the technology partner acquiring a deep understanding neither of its subject areas nor its business processes nor any particular qualities or idiosynchrasies of «doing business».</p>
 </div><div>
 <p class="subtitle">b. A custom software solution for which the technolgy partner will use proven software components or platforms, however:</p>
@@ -61,7 +75,7 @@ They face two main options both of which create a strong dependency on the techn
 </div>
 <p class="take-away">The predominant digitalisation strategy of these organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them.</p>
 <p>Overconfident technology partners are happy to take on that challenge even if they neither have the experience nor the experts to first explore and then master the organisation's «business» — and particularly their «way of doing business». Instead, they are more than likely to seek remedy on the technology side and to focus on that.<br>
-Failure is then a matter of time.<br><br></p>
+Failure is then a matter of time.<br></p>
 <p><em class="standout">Can this be avoided?</em></p>
 <p>We need to <em class="standout">change the narrative</em> in order to contain the great threat and risks<br>
 that a digital transformation creates for organisations:</p>
@@ -74,7 +88,7 @@ that is opening when organisations decide to take fate into their own hands.</p>
    <!------------------->
    <section class="chapter">
       <h1>The Semantic Eye Framework in a Nutshell</h1>
-      <div class="chapter-intro">
+      <div class="maniculed-hint">
       <img src="assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
       <a href="/pages/nutshell/index.html">Read online, read or download PDF (A4 pages: 4)</a>
       </div>
@@ -86,7 +100,7 @@ that is opening when organisations decide to take fate into their own hands.</p>
    <!------------------->
    <section class="chapter">
       <h1>The Semantic Eye Whitepaper</h1>
-      <div class="chapter-intro">
+      <div class="maniculed-hint">
       <img src="assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
       <a href="/pages/white-paper/index.html">Read or Download PDF (A4 pages: 20, includes bibliography)</a>
       </div>

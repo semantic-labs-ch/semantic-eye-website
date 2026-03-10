@@ -2,9 +2,14 @@
   --clr-light: #F0F0F0;
   --clr-dark: #130023;
   --clr-primary: var(--clr-light);
-  --clr-secondary: #A1A1A1;
-  --clr-accent: #A23200;
+  --clr-secondary: #909090;
+  --clr-accent: #8E0B00;
+  --clr-links: #9A2EE4;
   --clr-contrast: var(--clr-dark);
+  /* calculated: */
+  --clr-dark-ligher:  hsl(from var(--clr-dark) h calc(s * 0.5) calc(l * 1.8));
+  --clr-accent-darker: hsl(from var(--clr-accent) h calc(s * 0.5) l);
+  --clr-links-visited:  hsl(from var(--clr-links) h calc(s * 0.4) l);
 }
 
 body {
@@ -21,7 +26,8 @@ body {
 p,
 ol,
 ul,
-li {
+li, 
+a {
   margin: 0;
   margin-block-start: 0;
   font-size: 1.2rem;
@@ -32,7 +38,7 @@ li {
 em {
   padding-left: 0.1rem;
   padding-right: 0.1rem;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -42,7 +48,7 @@ em {
 
 .standout {
   color: var(--clr-accent);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 img {
@@ -52,12 +58,12 @@ img {
 
 
 a:link {
-  color: var(--clr-accent);
+  color: var(--clr-links);
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--clr-secondary);
+  color: var(--clr-links-visited);
 }
 
 /* Facilitate responsive pages: */

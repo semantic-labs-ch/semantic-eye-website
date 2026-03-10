@@ -6,14 +6,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/styles/general.css">
         <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/dropdown.css">
         <link rel="stylesheet" href="/styles/main.css">
         <link rel="stylesheet" href="/styles/footer.css">
         <title>The Semantic Eye Framework in a Nutshell</title>
     </head>
+    
     <body>
         <header class="header">
     <div class="header-left-section">
-        <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+            <ul class="dropdown__header">
+                <li class="dropdown__category">
+                    <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+                    <ul class="dropdown__menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/nutshell/index.html">Nutshell</a></li>
+                        <li><a href="/pages/white-paper/index.html">White Paper</a></li>
+                        <li><a href="/pages/references/index.html">References</a></li>
+                    </ul>
+                </li>
+            </ul>
     </div>
     <div class="header-middle-section">
         <input class="search-bar" type="text" placeholder="Search (inactive)">
@@ -33,19 +45,16 @@
     <p class="subtitle">The Semantic Eye focuses on processes of organisations where humans, machines and software collaborate<br>
     to achieve goals and create value in a controlled and repeatable fashion.</p>
 
-    <p>Digital transformation (short: _digitalisation_) is the support or the partial or full automation of manual activities and<br>
+    <p>Digital transformation (short: <em>digitalisation</em>) is the support or the partial or full automation of manual activities and<br>
     processes with software. Many organisations struggle with their digitalisation to the point where their existence is threatened.</p>
-   </section>
-
-    <div class="chapter">
-        <h2>Page available as PDF</h2>
-        <div class="chapter-intro">
-            <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-            <a target="_blank" rel="noopener noreferrer" href="/assets/downloads/Semantic Eye in a Nutshell v0.8.2.pdf"">Read or Download as PDF (in separate Tab)</a>
-        </div>
+   </section><section class="chapter">
+    <h2>Page available as PDF</h2>
+    <div class="maniculed-hint">
+        <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
+        <a target="_blank" rel="noopener noreferrer" href="/assets/downloads/Semantic Eye in a Nutshell v0.8.2.pdf"">Read or Download as PDF (in separate Tab)</a>
     </div>
-
-   <section class="chapter"><div class="multi-column-text">
+</section>
+<section class="chapter"><div class="multi-column-text">
 <div>
 <h2>1. Introduction</h2>
 <p>The <em>Semantic Eye Framework</em> takes successful industries as role models and proposes a disruptive, <em>strategic approach</em> to overcoming the «digitalisation malaise» (see <a href="#malaise">next chapter</a>) in the digital transformation of organisations:</p>
@@ -126,8 +135,9 @@ From there, the organisation takes full ownership and control of its <em>value-g
 </div><div>
 <h2>8. Patterns</h2>
 <p>Whenever languages, methods and tools are being applied, best practises for their application emerge over time and can be documented as solution <em>patterns</em>. The tool platform should provide explicit support for patterns. By their statistical nature, LLMs favour repeating patterns and can play a big role in suggesting suitable patterns. AI agents can then apply them automagically.</p>
-<p>Key Benefits of the Semantic Eye Framework</p>
-<p><em>Every organisation can benefit from the Semantic Eye.</em></p>
+</div><div>
+<h2>9. Key Benefits of the Semantic Eye Framework</h2>
+<p class="take-away">Every organisation can benefit from the Semantic Eye.</p>
 <p>Here are the top three benefits the Semantic Eye Framework offers to organisations:</p>
 <ul>
 <li>
@@ -141,10 +151,10 @@ From there, the organisation takes full ownership and control of its <em>value-g
 </li>
 </ul>
 </div><div>
-<h2>9. Where to Start?</h2>
+<h2>10. Where to Start?</h2>
 <p>Organisations that see potential benefits in using the Semantic Eye Framework (or parts of it) for their own digital transformation should consider these steps:</p>
 <ul>
-<li>Study the <em>«Semantic Eye White Paper</em>» that can be downloaded from <a href="https://www.semantic-eye.org">www.semantic-eye.org</a>.</li>
+<li>Study the <em>«Semantic Eye White Paper</em>» that can be downloaded <a href="/pages/white-paper/index.html">over here</a>.</li>
 <li>Get professional guidance and support from Semantic Labs (<a href="https://www.semantic-labs.ch">www.semantic-labs.ch</a>).</li>
 </ul>
 </div>
@@ -228,7 +238,13 @@ red: activity by organisation, blue: technology partner</p>
 <p class="take-away">We argue that, in most cases, unclear or chaotic situations can be converted at the Organisation tier into understood and predictable ones.</p>
 <p>A discipline that does this is engineering. It delivers with the help of mathematics (including graph theory or statistics), other formalisms (e.g. chemical formulae), or formal models (e.g. 2D or 3D blueprints, musical scores, particle flows).</p>
 <p>The Semantic Eye embraces the agile approach, however, first at the organisation tier until clarity and alignment is reached; then at the technology tier.</p>
-</div></section>
+</div></section><section class="chapter">
+    <h2>Page available as PDF</h2>
+    <div class="maniculed-hint">
+        <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
+        <a target="_blank" rel="noopener noreferrer" href="/assets/downloads/Semantic Eye in a Nutshell v0.8.2.pdf"">Read or Download as PDF (in separate Tab)</a>
+    </div>
+</section>
 </main>
         <footer class="footer">
     <div class="footer-left-section">

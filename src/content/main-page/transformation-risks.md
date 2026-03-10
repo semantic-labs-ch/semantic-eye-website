@@ -7,7 +7,10 @@ Only: Digital transformation is a high-risk endeavor as is sadly evidenced by ma
 Each organisation is different, however, two typical digitalisation scenarios have emerged over time.
 
 ### 1. Established, Standardized Field
-Organisations active in well-understood subject areas and relying on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.
+Organisations that are active in well-understood subject areas and relying on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.
+
+The organisation will mostly adopt the out-of-the box modules and processes as provided by that solution; 
+the new solution is branded and customised through configuration rather than full-on software development.{.take-away}
 
 ### 2. Non-Standard Business
 Organisations with non-standard subject areas or processes have particularly high digitalisation risks.
@@ -16,9 +19,9 @@ They face two main options both of which create a strong dependency on the techn
 <div class="multi-column-text">
 <div>
 
-a. Adopting standard, commercial software solution that needs to be adapted to their needs by a technology partner:{.subtitle}
+a. Adopting standard, commercial software solution that needs significant adaptation to their needs by a technology partner:{.subtitle}
 
-The organisation must adapt to the standards of the solution as much as possible; the domain experts will need to make painful sacrifices.{.take-away}
+The organisation must adapt to the standards of the solution as much as possible; the domain experts will need to make meaningful sacrifices.{.take-away}
 
 This requires a thorough understanding of that solution, its out-of-the-box processes, capabilities and limitations prior to any actual transformation steps. The technology partner will emphasise the strengths of their solution and the supposed ease of the transformation. Organisations cannot count on the technology partner acquiring a deep understanding neither of its subject areas nor its business processes nor any particular qualities or idiosynchrasies of «doing business».
 </div><div>
@@ -34,7 +37,7 @@ While this offers the organisation the opportunity to distinguish itself from th
 The predominant digitalisation strategy of these organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them. {.take-away}
 
 Overconfident technology partners are happy to take on that challenge even if they neither have the experience nor the experts to first explore and then master the organisation's «business» &mdash; and particularly their «way of doing business». Instead, they are more than likely to seek remedy on the technology side and to focus on that.
-Failure is then a matter of time.<br><br>
+Failure is then a matter of time.<br>
 
 _Can this be avoided?_{.standout}
 

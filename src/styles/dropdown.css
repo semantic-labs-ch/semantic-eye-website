@@ -1,0 +1,55 @@
+/* Source of the following approach: https://leewarrick.com/blog/css-only-menus/ */
+
+.dropdown__header,
+.dropdown__menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown__category li {
+  padding: 6px 12px;
+  position: relative;
+  border-width: 1px;
+  border-color: var(--clr-dark);
+  border-bottom-style: solid;
+}
+
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  background: var(--clr-dark-ligher);
+  top: 56px;
+  left: 6px;
+  width: 140px;
+
+  li {
+    text-align: center;
+  }
+
+  a:link {
+    color: var(--clr-light);
+  }
+  a:visited {
+    color: var(--clr-light);
+  }
+}
+
+.dropdown__category li:hover {
+  color: var(--clr-light);
+  background: var(--clr-dark-ligher);
+
+  a:link {
+    color: var(--clr-accent);
+    font-weight: bold;
+  }
+  a:visited {
+    color: var(--clr-accent);
+    font-weight: bold;
+  }
+}
+
+.dropdown__category:hover .dropdown__menu {
+  display: block;
+}
