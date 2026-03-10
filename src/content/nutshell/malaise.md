@@ -3,8 +3,8 @@
 
 Judging by media reports &mdash; and possibly also in the reader’s own experience &mdash;, 
 something is going terribly wrong in most organisations’ digitalisation projects.{.subtitle}
- 
-<div class="multi-column-text">
+</div> 
+<div class="two-column-text">
 <div>
 
 Too often, such projects become an existential threat to the organisation, e.g. by massive cost overshoots, degrading performance and wearing out staff. 
