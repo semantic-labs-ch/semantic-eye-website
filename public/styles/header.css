@@ -59,6 +59,7 @@
 .search-button {
   height: 40px;
   width: 66px;
+  background-color: var(--clr-light);
   border-width: 1px;
   border-style: solid;
   border-color: var(--clr-secondary);

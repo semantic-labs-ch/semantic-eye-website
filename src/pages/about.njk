@@ -7,28 +7,7 @@ layout: 'base.njk'
    <!------------------->
    <section class="first-chapter wrapper">
       <h1>{{title}}</h1>
-      <p>The Semantic Eye Framework is an initiative of the Semantic Labs <a href="https://www.semantic-labs.ch">www.semantic-labs.ch</a>.<br><br></p>
-
-      <img src="/assets/semantic-eye-logo-for-dark-background.svg" alt="semantic eye logo" width="378">
-
-      <p class="subtitle">Get their professional guidance and support for your project.</p>
-   
-      <h2>About the Logo</h2>
-      <p>In case you're wondering why the logo of the Semantic Eye <em>is not an eye</em>, then be warned that it <em>is not a hand either</em>.</p>
-      <p>The pun harkens back to the famous 1929 painting by René Magritte called</p>
-      <p><em>La trahison des images</em><br>(The treachery of images)</p>
-      <p> showing a realistically-painted smoking pipe and the words:</p>
-
-      <div class="image-with-caption">
-         <img src="/assets/Magritte - La trahison des images.jpg" alt="La trahison des images" width="378">
-         <p> «This is not a pipe» (Source:
-                <a href="/pages/references/index.html#4">[4]</a>)</p>
-      </div>
-
-      <p>The painting caused a lot of controversy because it shows a pipe and at the same time claims, «this is not a pipe».<br>Of course, Magritte is right &mdash; what he painted is <em>an image of a pipe</em>. He delivered the proof as a question:</p>
-      <p> «Can I smoke it?»</p>
-      <p class="take-away">This is what semantics are about and why they merit more attention. Aligned semantics make the difference.</p>
-
+        {%- renderFile 'src/content/about/about.md' -%}
    </section>
 
 </main>

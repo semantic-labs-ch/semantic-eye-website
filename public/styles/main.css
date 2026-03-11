@@ -125,7 +125,8 @@ li > p {
   }
 }
 
-.image-with-caption {
+.image-with-caption,
+.image-with-caption-transparent {
   display: grid;
   justify-items: center;
   min-width: 250px;
@@ -133,16 +134,18 @@ li > p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 
-  img {
-    background-color: var(--clr-light);
-    padding: 5px;
-  }
-
   p {
     margin-top: 0.6rem;
     font-size: 1rem;
     line-height: 1.6rem;
     text-align: center;
+  }
+}
+
+.image-with-caption {
+  img {
+    background-color: var(--clr-light);
+    padding: 5px;
   }
 }
 
