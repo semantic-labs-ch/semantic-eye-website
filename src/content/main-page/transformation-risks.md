@@ -49,7 +49,7 @@ We need to _change the narrative_{.standout} in order to contain the great threa
 that a digital transformations create for organisations:
 
 Organisations must take full responsibility and leadership of their own digital transformation
-&mdash; instead of trying to offload it to technology partners and hope for the best. {.take-away}
+&mdash; instead of trying to offload them to technology partners and hope for the best. {.take-away}
 
 _But how should they do that?_{.standout}
 
