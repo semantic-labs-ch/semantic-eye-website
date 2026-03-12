@@ -1,4 +1,3 @@
-# At a Glance
 <div class="wrapper">
 
 _Organisations need digital transformations to ensure and improve their productivity, quality and innovation_.

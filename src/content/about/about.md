@@ -8,7 +8,7 @@ The initiative is named the _Semantic Eye_ for its defining _curious mindset_ an
 However, just looking at the world with a different pair of eyes is not actually improving the situation for organisations in need of digital transformation.{.subtitle}
 
 ## The Semantic Eye Framework
-What organisations actually need is _practical, actionable advice and tangible results_.
+What organisations actually need is _practical, actionable advice_ and _tangible results_.
 This is what the Semantic Eye Framework has been developed for.
 
 <div class="image-with-caption-transparent">
@@ -18,9 +18,9 @@ This is what the Semantic Eye Framework has been developed for.
 The Semantic Eye Framework 1.0 focuses on organisations, their subject areas and organisational processes.
 Future release may extend support to other fields of digitalisation.{.take-away}
 
-The Semantic Eye and its framework are an initiative of the Semantic Labs.
+The Semantic Eye and its framework are an initiative by <i>Depuzzle</i>.
 
-Get their professional guidance and support for your project at [www.semantic-labs.ch](https://www.semantic-labs.ch).{.subtitle}
+Get their professional guidance and support for your project over at …  (website coming soon).{.subtitle}
 
 ## About the Logo
 In case you're wondering why the logo of the Semantic Eye _is not an eye_, then be warned that it _is not a hand either_.
