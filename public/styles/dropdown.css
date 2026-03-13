@@ -9,7 +9,7 @@
 }
 
 .dropdown__category li {
-  padding: 6px 12px;
+  padding: 12px 12px;
   position: relative;
   border-width: 1px;
   border-color: var(--clr-dark);
@@ -19,7 +19,7 @@
 .dropdown__menu {
   display: none;
   position: absolute;
-  background: var(--clr-dark-ligher);
+  background: var(--clr-dark-lighter);
   top: 56px;
   left: 6px;
   width: 140px;
@@ -38,7 +38,7 @@
 
 .dropdown__category li:hover {
   color: var(--clr-light);
-  background: var(--clr-dark-ligher);
+  background: var(--clr-dark-lighter);
 
   a:link {
     color: var(--clr-accent);

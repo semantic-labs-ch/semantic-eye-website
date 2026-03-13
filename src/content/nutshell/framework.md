@@ -13,7 +13,7 @@ It takes the pivotal role that _standardised blueprints or models_ have held in 
 From there, the organisation takes full ownership and control of its _value-generating processes_.
 </div>
 
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Shifting focus of activity to the organisation tier](/assets/nutshell/shift-focus-to-org-tier.svg){width="500"}
 
@@ -25,7 +25,7 @@ Figure 2-1  |  Shifting focus of activity to the organisation tier
 ## 2. Key Areas
 
 The Semantic Eye Framework was designed to support this two-pronged strategy by addressing five key areas to ensure digital-transformation success:
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Key framework areas building on each other](/assets/nutshell/framework-components.svg){width="400"}
 
@@ -36,7 +36,7 @@ Figure 2-2  |  Key framework areas building on each other
 ## 3. The Semantic Compass
 
 The semantic compass is part of the conceptual foundation. It provides orientation and guidance (hence «compass») on how to get from the vague idea for a product (top left in figure 2-3) to a working solution (bottom right). In typical digital transformations today, most of the deliverables are either documents in natural language, informal diagrams or program code. So, these projects rely on highly ambiguous artefacts for most of the time, then jump right to highly precise program code at the last moment (grey curve). During this jump, all the ambiguities need to be sorted out (Precision Gap)—which does not happen. As a result, the wrong solution (code) is produced.
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Semantic Compass: detail vs. precision](/assets/nutshell/semantic-compass.svg){width="500"}
 
@@ -49,7 +49,7 @@ In contrast, the Semantic Eye crosses from the vague to the precise side as earl
 ## 4. Organisational Processes
 
 Organisational processes are an end-to-end description of where and how an organisation creates value. 
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![What is a process?](/assets/nutshell/process-definition.svg){width="400"}
 
@@ -72,7 +72,7 @@ At the heart of the Semantic Eye lies the «Cosmos», a _conceptual organisation
 The subject areas represent the «real world» with all its objects, relations and rules. The processes in the Cosmos tie the organisation to the subject areas:
 
 who needs to do what and when.{.take-away}
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![The organisation’s cosmos](/assets/nutshell/cosmos.svg){width="500"}
 
@@ -92,7 +92,7 @@ Formal models are a prerequisite for the design and implementation of digital to
 The framework promotes the collaborative and iterative building of a comprehensive, explicit Cosmos for organisations, with strong domain semantics.
 
 The Semantic Eye divides the journey into a _before_ and an _after_ choosing and onboarding software and technical partners. The journey consists of four phases, the last of which repeats forever:
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Phases of the transformation journey](/assets/nutshell/journey.svg){width="400"}
 

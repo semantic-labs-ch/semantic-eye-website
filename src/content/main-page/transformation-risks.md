@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="single-column-text">
 
 _Organisations need digital transformations to ensure and improve their productivity, quality and innovation_.
 
@@ -10,13 +10,15 @@ Each organisation is different, however, two typical digitalisation scenarios ha
 ### 1. Established, Standardized Field
 Organisations that are active in well-understood subject areas and that rely on industry-standard processes can significantly reduce risks by adopting proven digital solutions that require no or few adaptations.
 
-The organisation will mostly adopt the out-of-the box modules and processes as provided by that solution; 
-the new solution is branded and customised through configuration rather than full-on software development.{.take-away}
+The organisation will mostly adopt the out-of-the box modules and processes as provided by that solution; the new solution is branded and customised through configuration rather than full-on software development.{.take-away}
 
 ### 2. Non-Standard Business
-Organisations with non-standard subject areas or processes have particularly high digitalisation risks.
-They face two main options both of which create a strong dependency on the main technology partner.
+Organisations with non-standard subject areas or processes have particularly high digitalisation risks. They face two main options both of which create a strong dependency on the main technology partner
 </div>
+
+<div class="collapsible-container">
+    <button class="collapsible-button">Show their Options</button>
+    <div class="collapsible-content">
 <div class="two-column-text">
 <div>
 
@@ -24,6 +26,7 @@ a.
 Adopt a _standard, commercial software solution_ with significant adaptations to the organisation's needs by a technology partner:{.subtitle}
 
 The organisation should adapt to the standards of the solution as much as possible; the domain experts need to make meaningful sacrifices.{.take-away}
+
 
 This approach requires the organisation to gain a thorough understanding of that solution, its out-of-the-box processes, capabilities and limitations prior to any actual transformation steps. This step is usually skipped, thus surrending transformation leadership and control to the technology partner.
 
@@ -46,17 +49,19 @@ Organisations must not count on the technology partner providing effective suppo
 The project will see exploding complexity and cost while progress slows down.
 </div>
 </div>
+    </div>
+    <script type="text/javascript" src="/assets/scripts/collapse.js"></script> 
+</div>
 
-<div class="wrapper">
+<div class="single-column-text">
 
-The predominant digitalisation strategy of these organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them.{.take-away}
+The predominant digitalisation strategy of organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them.{.take-away}
 
 Overconfident technology partners are taking on that challenge in the absence of experts who first explore and master the organisation's «business» complexity. Instead, they seek remedy on the technology side &mdash; which won't work because it is not where the root of the problem lies. They will _build the wrong solution_. Failure is then a matter of time.
 
 ### Can this be avoided?
 
-In order to contain the great threat and risks that a digital transformations creates for organisations,
-we need to _look at a different map_{.standout} and _change the narrative_{.standout}:
+In order to contain the great threat and risks that a digital transformations creates for organisations, we need to _look at a different map_{.standout} and _change the narrative_{.standout}:
 
 Organisations must take full responsibility and leadership of their own digital transformation
 &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
@@ -66,8 +71,7 @@ Organisations must take full responsibility and leadership of their own digital 
 Currently, the digital-transformation industry that takes care of organisations and their processes does not provide widely accepted methodology or tools to even remotely match other industries' established maturity and track record in dealing with complexity. Think of building construction, automotive, aerospace or chip design and manufacturing!
 In fact, there seems to be <i>no</i> such methodology and technology for the digitalisation of organisations.
  
-The Semantic Eye Framework was specifically created to fill the abyss
-that is opening when organisations decide to take fate into their own hands:{.subtitle}
+The Semantic Eye Framework was specifically created to fill the abyss that is opening when organisations decide to take fate into their own hands:{.subtitle}
 
 <div class="subtitle">
 

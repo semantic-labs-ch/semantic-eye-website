@@ -1,5 +1,5 @@
 # The Digitalisation Malaise of Organisations {#malaise}
-<div class="wrapper">
+<div class="single-column-text">
 
 Judging by media reports &mdash; and possibly also in the reader’s own experience &mdash;, 
 something is going terribly wrong in most organisations’ digitalisation projects.{.subtitle}
@@ -52,7 +52,7 @@ It is worth noting that the weak point in digital transformations is usually not
 
 At this point, the three tiers of transformation become a helpful instrument: digital transformations break down into activity on three mutually-dependant tiers:
 
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Transformation tiers and mutual influences](/assets/nutshell/digital-transformation-tiers.svg){width="180"}
 
@@ -80,7 +80,7 @@ Today, construction projects use sophisticated digital tools like CAD and BIM to
 ## 6. The Blind leading the Blind
 What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ on the Technology tier:
 
-<figure class="add-background">
+<figure class="add-img-background">
 
 ![Feature negotiation](/assets/nutshell/feature-negotiation.svg){width="250"}
 

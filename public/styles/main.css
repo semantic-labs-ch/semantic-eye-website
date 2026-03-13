@@ -1,3 +1,5 @@
+/* ---- Home page ---- */
+
 .semantic-eye-title {
   padding-bottom: 3rem;
 
@@ -7,52 +9,14 @@
 }
 
 .title-img {
+  width: 100%;
   min-width: 200px;
-  width: 60%;
-  max-width: 600px;
+  max-width: 500px;
 
 }
 
-/* ------ */
-h1,
-h2,
-h3 {
-  color: var(--clr-accent);
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-}
+/* Emphasis and spacing */
 
-h2, h3 {
-  margin-top: 2.5rem;
-}
-
-p {
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-li, 
-li > p {
-  /* MD sometimes generates p inside li */
-  margin-top: 0.25rem;
-  text-align: justify;
-}
-
-/* ------ */
-.first-chapter, .chapter {
-  padding-top:0;
-  padding-bottom: 2rem;
-  
-  display: grid;
-  justify-items: center;
-}
-
-.chapter {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: var(--clr-secondary);
-}
 
 .maniculed-hint {
   display: flex;
@@ -82,7 +46,7 @@ li > p {
 
 .subtitle {
   color: var(--clr-primary);
-  background-color: var(--clr-dark-ligher);
+  background-color: var(--clr-dark-lighter);
 }
 
 .take-away {
@@ -90,27 +54,42 @@ li > p {
   background-color: var(--clr-secondary);
 }
 
-figure {
-  display: grid;
-  justify-items: center;
-  min-width: 250px;
-  /* max-width: 520px; */
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-
-  p {
-    margin-top: 0.6rem;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    text-align: center;
-  }
+.standout {
+  color: var(--clr-accent);
+  font-weight: bold;
 }
 
-/* ------ */
+.air {
+  margin-top: 0.8rem;
+}
+
+/* ---- Main flow and layout ---- */
+
+.first-chapter, .chapter {
+  padding-top:0;
+  padding-bottom: 2rem;
+  
+  display: grid;
+  justify-items: center;
+}
+
+.chapter {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: var(--clr-secondary);
+}
+
+/* Responsive Design */
+
+  /* Narrower lines = Better readability: */
+  .single-column-text {
+    max-width: 700px;
+    margin-inline: auto;
+  }
 
 .two-column-text, .multi-column-text {
   display: grid;
-  grid-template-columns: minmax(500px, 700px);
+  grid-template-columns: minmax(300px, 700px);
   margin-top: 1rem;
   margin-bottom: 1rem;
   
@@ -127,23 +106,23 @@ figure {
   font-size: 1.3rem;
 }
 
-
-/* ------ */
 @media (min-width: 1088px) {
-  .multi-column-text {
-	  gap: 24px;
-	  grid-template-columns:
-		repeat(auto-fit, minmax(500px, 1fr));
-  }
+  
   .two-column-text {
 	  gap: 24px;
 	  grid-template-columns:
 		500px 500px;
     margin-inline: auto;
   }
+
+  .multi-column-text {
+	  gap: 24px;
+	  grid-template-columns:
+		repeat(auto-fit, minmax(500px, 1fr));
+  }
 }
 
-.add-background {
+.add-img-background {
   img {
     background-color: var(--clr-light);
     padding: 5px;
@@ -164,52 +143,47 @@ figure {
   }
 }
 
-/* ------ */
-.flip-card {
-  background-color: transparent;
+/* Collapsible content */
+.collapsible-container {
+  display: grid;
+  justify-items: center;
+}
+
+.collapsible-button {
+  margin-top: 1rem;
+  padding: 18px;
   width: 300px;
-  height: 300px;
-  border: 1px solid red;
-  perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  color:var(--clr-light);
+  background-color:var(--clr-accent-darker);
 }
 
-/* Do a horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.collapsible-content {
+  display: grid;
+  justify-items: center;
+  margin-inline: auto;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  /* Safari */
-  backface-visibility: hidden;
+.collapsible-button-active, .collapsible-button:hover {
+  background-color: var(--clr-accent);
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.collapsible-button:after {
+  float: right;
+  content: '\002B';
+  margin-left: 5px;
+  font-weight: bold;
+  color: var(--clr-light);
 }
 
-/* Style the back side */
-.flip-card-back {
-  background-color: black;
-  color: white;
-  transform: rotateY(180deg);
+.collapsible-button-active:after {
+  content: "\2212";
 }

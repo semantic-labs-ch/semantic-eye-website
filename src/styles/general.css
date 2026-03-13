@@ -7,20 +7,40 @@
   --clr-links: #9A2EE4;
   --clr-contrast: var(--clr-dark);
   /* calculated: */
-  --clr-dark-ligher:  hsl(from var(--clr-dark) h calc(s * 0.5) calc(l * 1.8));
+  --clr-dark-lighter:  hsl(from var(--clr-dark) h calc(s * 0.5) calc(l * 1.8));
   --clr-accent-darker: hsl(from var(--clr-accent) h calc(s * 0.5) l);
   --clr-links-visited:  hsl(from var(--clr-links) h calc(s * 0.4) l);
+
 }
 
+/* ---- Standard HTML elements ---- */
 body {
   font-family: Roboto, Arial, sans-serif;
   font-weight: lighter;
   color: var(--clr-light);
+  background-color: var(--clr-dark);
+
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
   margin: 0;
   padding-top: 60px;
-  padding-left: 24px;
-  padding-right: 24px;
-  background-color: var(--clr-dark);
+  padding-left: 1em;
+  padding-right: 1em;
+  
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-accent);
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2, h3 {
+  margin-top: 2.5rem;
 }
 
 h2 {
@@ -43,6 +63,18 @@ a {
   text-align: start;
 }
 
+p {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+li, 
+li > p {
+  /* MD sometimes generates p inside li */
+  margin-top: 0.25rem;
+  text-align: justify;
+}
+
 em {
   padding-left: 0.1rem;
   padding-right: 0.1rem;
@@ -50,20 +82,26 @@ em {
   font-style: normal;
 }
 
-.air {
-  margin-top: 0.8rem;
-}
-
-.standout {
-  color: var(--clr-accent);
-  font-weight: bold;
-}
-
 img {
   display: block;
   max-width: 100%;
 }
 
+figure {
+  display: grid;
+  justify-items: center;
+  min-width: 250px;
+  /* max-width: 520px; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-top: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+}
 
 a:link {
   color: var(--clr-links);
@@ -72,10 +110,4 @@ a:link {
 
 a:visited {
   color: var(--clr-links-visited);
-}
-
-/* Facilitate responsive pages: */
-.wrapper {
-  max-width: 1024px;
-  margin-inline: auto;
 }
