@@ -21,7 +21,7 @@ They face two main options both of which create a strong dependency on the main 
 <div>
 
 a.
-Adopt a _standard, commercial software solution_ with significant adaptations to their needs by a technology partner:{.subtitle}
+Adopt a _standard, commercial software solution_ with significant adaptations to the organisation's needs by a technology partner:{.subtitle}
 
 The organisation must adapt to the standards of the solution as much as possible; the domain experts will need to make meaningful sacrifices.{.take-away}
 
@@ -37,13 +37,13 @@ Develop a _custom software solution_ for which the technology partner will use p
 
 A greenfield program led by a technology partner will arguably see the organisation's domain experts facing the greatest challenge of their careers.{.take-away}
 
-While this approach offers the organisation the opportunity to distinguish itself from the market and from competitors in terms of productivity, quality and innovation, this postential comes at great risks.
+While this approach offers the organisation the opportunity to distinguish itself from the market and from competitors in terms of productivity, quality and innovation, this potential comes at great risks.
 
 Organisations that so far relied on smart humans and mostly-manual processes always underestimate the complexity that they are managing day in and day out. It is only because of their skilled, experienced and creative individuals that they are able to handle that complexity. 
 
 Organisations must not count on the technology partner providing effective support in coming to terms with their business complexity. Which will be augmented by the complexity of mastering a new strategy and new requirements, future technologies, the changes in roles, responsibilites and organisational structure, etc.
 
-The project will see exploding complexity and cost while progress will slow down.
+The project will see exploding complexity and cost while progress slows down.
 </div>
 </div>
 
@@ -59,7 +59,7 @@ In order to contain the great threat and risks that a digital transformations cr
 we need to _look at a different map_{.standout} and _change the narrative_{.standout}:
 
 Organisations must take full responsibility and leadership of their own digital transformation
-&mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away} <br>
+&mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
 
 <br>_But how should they do that?_{.standout}
 
