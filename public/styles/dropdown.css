@@ -21,7 +21,7 @@
   position: absolute;
   background: var(--clr-dark-lighter);
   top: 56px;
-  left: 6px;
+  left: 12px;
   width: 140px;
 
   li {

@@ -2,7 +2,9 @@
 
 _Organisations need digital transformations to ensure and improve their productivity, quality and innovation_.
 
-Only: Digital transformation is a high-risk endeavor as is sadly evidenced by many failing projects. {.take-away}
+Only: Digital transformation (short: _digitalisation_) is a high-risk endeavor as is sadly evidenced by too many failing projects. {.take-away}
+
+A closer look at organisations struggling or even failing in their digitalisation strategy reveals recurring patterns.
 
 ## Different Organisations, Different Risks
 Each organisation is different, however, two typical digitalisation scenarios have emerged over time.
@@ -68,8 +70,7 @@ Organisations must take full responsibility and leadership of their own digital 
 
 ### But how should they do that?
 
-Currently, the digital-transformation industry that takes care of organisations and their processes does not provide widely accepted methodology or tools to even remotely match other industries' established maturity and track record in dealing with complexity. Think of building construction, automotive, aerospace or chip design and manufacturing!
-In fact, there seems to be <i>no</i> such methodology and technology for the digitalisation of organisations.
+Currently, the digital-transformation industry that takes care of organisations and their processes does not provide widely accepted methodology or tools to even remotely match other industries' established maturity and track record in dealing with complexity. Think of building construction, automotive, aerospace or chip design and manufacturing! &mdash; In fact, there seems to be <i>no</i> such methodology and technology for the digitalisation of organisations.
  
 The Semantic Eye Framework was specifically created to fill the abyss that is opening when organisations decide to take fate into their own hands:{.subtitle}
 
