@@ -11,9 +11,9 @@ However, just looking at the world with a different pair of eyes is not actually
 What organisations actually need is _practical, actionable advice_ and _tangible results_.
 This is what the Semantic Eye Framework has been developed for.
 
-<div class="image-with-caption-transparent">
+<figure>
     <img src="/assets/semantic-eye-logo-for-dark-background.svg" alt="semantic eye logo" width="250">
-</div>
+</figure>
 
 The Semantic Eye Framework 1.0 focuses on organisations, their subject areas and organisational processes.
 Future release may extend support to other fields of digitalisation.{.take-away}
@@ -27,11 +27,11 @@ In case you're wondering why the logo of the Semantic Eye _is not an eye_, then 
 
 The pun harkens back to the famous 1929 painting by René Magritte called _La trahison des images_ (The treachery of images) showing a realistically-painted smoking pipe and the words:
 
-<div class="image-with-caption-transparent">
+<figure>
     <img src="/assets/magritte-trahison des images.jpg" alt="La trahison des images" width="378">
     
     La trahison des images («This is not a pipe»), Source: [[4]](/pages/references/index.html#4)
-</div>
+</figure>
 
 The painting caused a lot of controversy because it shows a pipe and at the same time claims, «this is not a pipe».<br>Of course, Magritte is right &mdash; what he painted is _an image of a pipe_. He delivered the proof as a question:
 «Can I smoke it?»

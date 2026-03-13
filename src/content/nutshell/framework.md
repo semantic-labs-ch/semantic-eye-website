@@ -13,35 +13,35 @@ It takes the pivotal role that _standardised blueprints or models_ have held in 
 From there, the organisation takes full ownership and control of its _value-generating processes_.
 </div>
 
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Shifting focus of activity to the organisation tier](/assets/nutshell/shift-focus-to-org-tier.svg){width="500"}
 
 Figure 2-1  |  Shifting focus of activity to the organisation tier
 (red: activity by organisation, blue: technology partner, green: independent technical experts)
-</div>
+</figure>
 </div><div>
 
 ## 2. Key Areas
 
 The Semantic Eye Framework was designed to support this two-pronged strategy by addressing five key areas to ensure digital-transformation success:
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Key framework areas building on each other](/assets/nutshell/framework-components.svg){width="400"}
 
 Figure 2-2  |  Key framework areas building on each other
-</div>
+</figure>
 </div><div>
 
 ## 3. The Semantic Compass
 
 The semantic compass is part of the conceptual foundation. It provides orientation and guidance (hence «compass») on how to get from the vague idea for a product (top left in figure 2-3) to a working solution (bottom right). In typical digital transformations today, most of the deliverables are either documents in natural language, informal diagrams or program code. So, these projects rely on highly ambiguous artefacts for most of the time, then jump right to highly precise program code at the last moment (grey curve). During this jump, all the ambiguities need to be sorted out (Precision Gap)—which does not happen. As a result, the wrong solution (code) is produced.
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Semantic Compass: detail vs. precision](/assets/nutshell/semantic-compass.svg){width="500"}
 
 Figure 2-3  |  Semantic Compass: detail vs. precision
-</div>
+</figure>
 
 In contrast, the Semantic Eye crosses from the vague to the precise side as early as possible (green curve in the figure) by making all deliverables more precise and more formal. This enables early digital-tool support and automated quality checking.
 </div><div>
@@ -49,14 +49,14 @@ In contrast, the Semantic Eye crosses from the vague to the precise side as earl
 ## 4. Organisational Processes
 
 Organisational processes are an end-to-end description of where and how an organisation creates value. 
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![What is a process?](/assets/nutshell/process-definition.svg){width="400"}
 
 Figure 2-4  |  What is a process?
-</div>
+</figure>
 
- Every organisation has organisational processes.{.take-away}
+Every organisation has organisational processes.{.take-away}
 
 They are arguably the most frequent and relevant subjects of digital transformations. Organisational processes are the kingpin of the Semantic Eye Framework and thus receive great support by the Framework.
 </div><div>
@@ -72,12 +72,12 @@ At the heart of the Semantic Eye lies the «Cosmos», a _conceptual organisation
 The subject areas represent the «real world» with all its objects, relations and rules. The processes in the Cosmos tie the organisation to the subject areas:
 
 who needs to do what and when.{.take-away}
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![The organisation’s cosmos](/assets/nutshell/cosmos.svg){width="500"}
 
 Figure 2-5  |  The organisation’s cosmos
-</div>
+</figure>
 
 The Cosmos belongs to the Organisation tier. The Technology tier should build its own models that reference the elements of the Cosmos models for traceability.
 </div><div>
@@ -92,12 +92,12 @@ Formal models are a prerequisite for the design and implementation of digital to
 The framework promotes the collaborative and iterative building of a comprehensive, explicit Cosmos for organisations, with strong domain semantics.
 
 The Semantic Eye divides the journey into a _before_ and an _after_ choosing and onboarding software and technical partners. The journey consists of four phases, the last of which repeats forever:
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Phases of the transformation journey](/assets/nutshell/journey.svg){width="400"}
 
 Figure 2-6  |  Phases of the transformation journey
-</div>
+</figure>
 
 - _Understand_: Create a Cosmos of the solution «as is», carefully analyse it and the new strategy;
 - _Frame_: define the organisational solution «to be» in a new or updated Cosmos;

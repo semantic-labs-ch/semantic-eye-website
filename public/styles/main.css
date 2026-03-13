@@ -18,14 +18,8 @@ h1,
 h2,
 h3 {
   color: var(--clr-accent);
-}
-
-h1,
-h2,
-h3 {
   text-align: center;
   margin-top: 4rem;
-
 }
 
 h2, h3 {
@@ -38,8 +32,11 @@ p {
   text-align: center;
 }
 
+li, 
 li > p {
-  text-align: start;
+  /* MD sometimes generates p inside li */
+  margin-top: 0.25rem;
+  text-align: justify;
 }
 
 /* ------ */
@@ -93,22 +90,43 @@ li > p {
   background-color: var(--clr-secondary);
 }
 
-/* ------ */
-
-.multi-column-text, .two-column-text {
+figure {
   display: grid;
-  grid-template-columns: minmax(500px, 700px);
+  justify-items: center;
+  min-width: 250px;
+  /* max-width: 520px; */
   margin-top: 1rem;
   margin-bottom: 1rem;
 
   p {
-    text-align: justify;
-  }
-
-  .take-away {
+    margin-top: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     text-align: center;
   }
 }
+
+/* ------ */
+
+.two-column-text, .multi-column-text {
+  display: grid;
+  grid-template-columns: minmax(500px, 700px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+  div > p:not(.subtitle, .take-away) {
+    text-align: justify;
+  }
+}
+
+.multi-column-text > div > p:not(.subtitle, .take-away),
+.multi-column-text > div > ul > li,
+.multi-column-text > a {
+  font-family: serif;
+  font-weight: ligher;
+  font-size: 1.3rem;
+}
+
 
 /* ------ */
 @media (min-width: 1088px) {
@@ -125,24 +143,7 @@ li > p {
   }
 }
 
-.image-with-caption,
-.image-with-caption-transparent {
-  display: grid;
-  justify-items: center;
-  min-width: 250px;
-  /* max-width: 520px; */
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-
-  p {
-    margin-top: 0.6rem;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    text-align: center;
-  }
-}
-
-.image-with-caption {
+.add-background {
   img {
     background-color: var(--clr-light);
     padding: 5px;

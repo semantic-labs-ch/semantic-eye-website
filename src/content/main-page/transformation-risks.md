@@ -31,7 +31,7 @@ b. A custom software solution for which the technology partner will use proven s
 
 A greenfield program led by the technology partner in which the organisation's domain experts will arguably face the greatest challenge of their lives.{.take-away}
 
-While this offers the organisation the opportunity to distinguish itself from the market and from competitors in terms of productivity, quality and innovation, this postential comes at great risks. Organisations that so far relied on smart humans and mostly-manual processes always underestimate the complexity that they are managing day in and day out. It is only because of their skilled and experienced people that they are able to handle that complexity. Such organisations must not count on the technology partner to provide useful support in coming to terms with their complexity, which will be augmented by the complexity of the new strategy, new requirements, future technologies, the changes in roles, responsibilites and organisation, etc. 
+While this offers the organisation the opportunity to distinguish itself from the market and from competitors in terms of productivity, quality and innovation, this postential comes at great risks. Organisations that so far relied on smart humans and mostly-manual processes always underestimate the complexity that they are managing day in and day out. It is only because of their skilled and experienced people that they are able to handle that complexity. Such organisations must not count on the technology partner to provide useful support in coming to terms with their complexity, which will be augmented by the complexity of the new strategy, new requirements, future technologies, the changes in roles, responsibilites and organisation, etc.
 </div>
 </div>
 
@@ -40,7 +40,7 @@ While this offers the organisation the opportunity to distinguish itself from th
 The predominant digitalisation strategy of these organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them.{.take-away}
 
 Overconfident technology partners are happy to take on that challenge even if they neither have the experience nor the experts to first explore and then master the organisation's «business» &mdash; and particularly their «way of doing business». Instead, they are more than likely to seek remedy on the technology side and to focus on that.
-Failure is then a matter of time.<br>
+Failure is then a matter of time.<br><br>
 
 _Can this be avoided?_{.standout}
 

@@ -52,12 +52,12 @@ It is worth noting that the weak point in digital transformations is usually not
 
 At this point, the three tiers of transformation become a helpful instrument: digital transformations break down into activity on three mutually-dependant tiers:
 
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Transformation tiers and mutual influences](/assets/nutshell/digital-transformation-tiers.svg){width="180"}
 
 Figure 1-1  |  Transformation tiers and mutual influences (green)
-</div>
+</figure>
 
 - The Strategy tier must identify and define the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
 - The Technology tier defines what is _feasible_ and _how_, and eventually provides the _resources_ to do so.
@@ -80,13 +80,13 @@ Today, construction projects use sophisticated digital tools like CAD and BIM to
 ## 6. The Blind leading the Blind
 What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ on the Technology tier:
 
-<div class="image-with-caption">
+<figure class="add-background">
 
 ![Feature negotiation](/assets/nutshell/feature-negotiation.svg){width="250"}
 
 Figure 1-2  |  Feature negotiation (in dashed box);
 red: activity by organisation, blue: technology partner
-</div>
+</figure>
 
 The collaboration is problematic in various ways:
 

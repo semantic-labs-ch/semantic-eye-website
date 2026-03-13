@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Arial, sans-serif;
   font-weight: lighter;
   color: var(--clr-light);
   margin: 0;
@@ -31,7 +31,7 @@ a {
   margin: 0;
   margin-block-start: 0;
   font-size: 1.2rem;
-  line-height: 1.9rem;
+  line-height: 1.8rem;
   text-align: start;
 }
 
