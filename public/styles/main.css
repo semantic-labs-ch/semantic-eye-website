@@ -121,7 +121,7 @@ figure {
 
 .multi-column-text > div > p:not(.subtitle, .take-away),
 .multi-column-text > div > ul > li,
-.multi-column-text > a {
+.multi-column-text a {
   font-family: serif;
   font-weight: ligher;
   font-size: 1.3rem;
