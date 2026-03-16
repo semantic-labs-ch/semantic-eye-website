@@ -1,55 +1,54 @@
 /* Source of the following approach: https://leewarrick.com/blog/css-only-menus/ */
 
-.dropdown__header,
-.dropdown__menu {
-  display: flex;
-  list-style: none;
+.dropdown__header * {
   padding: 0;
   margin: 0;
+  ul {
+    padding-inline-start: 0;
+  }
+}
+.dropdown__header {
+  display: flex;
+  align-items: center;
 }
 
-.dropdown__category li {
-  padding: 12px 12px;
+.dropdown__header .dropdown__categories,
+.dropdown__header .dropdown__menu {
+  display: flex;
+  list-style: none;
+}
+
+.dropdown__header li {
   position: relative;
+  padding: 12px;
   border-width: 1px;
   border-color: var(--clr-dark);
   border-bottom-style: solid;
-}
+  text-align: center;
 
-.dropdown__menu {
-  display: none;
-  position: absolute;
-  background: var(--clr-dark-lighter);
-  top: 56px;
-  left: 12px;
-  width: 140px;
-
-  li {
-    text-align: center;
-  }
-
-  a:link {
-    color: var(--clr-light);
-  }
+  a:link,
   a:visited {
     color: var(--clr-light);
   }
 }
 
 .dropdown__category li:hover {
-  color: var(--clr-light);
-  background: var(--clr-dark-lighter);
-
-  a:link {
-    color: var(--clr-accent);
-    font-weight: bold;
-  }
+  a:link,
   a:visited {
     color: var(--clr-accent);
     font-weight: bold;
   }
 }
 
-.dropdown__category:hover .dropdown__menu {
-  display: block;
+.dropdown__header .dropdown__category .dropdown__menu {
+  display: none;  /* hide */
+  position: absolute;
+  background: var(--clr-dark-lighter);
+  top: 56px;
+  left: -40px;
+  width: 140px;
+}
+
+.dropdown__header .dropdown__category:hover .dropdown__menu {
+  display: block; /* show */
 }
