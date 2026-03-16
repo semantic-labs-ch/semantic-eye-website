@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&Merriweather:ital,opsz,wght@@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/general.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/dropdown.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/footer.css">
+        <title>Semantic Eye Tools</title>
+    </head>
+    
+    <body>
+        <header class="header">
+    <div class="header-left-section">
+        <nav class="dropdown__header">
+            <ul>
+                <li class="dropdown__category">
+                    <img class="hamburger-menu" src="/assets//icons/hamburger-menu.svg">
+                    <ul class="dropdown__menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/nutshell/index.html">Nutshell</a></li>
+                        <li><a href="/pages/white-paper/index.html">White Paper</a></li>
+                        <li><a href="/pages/tools/index.html">Tools</a></li>
+                        <li><a href="/pages/references/index.html">References</a></li>
+                        <li><a href="/pages/about/index.html">About</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search (inactive)">
+        <button class="search-button">
+            <img class="search-icon" src="/assets/icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button>
+    </div>
+    <div class="header-right-section">
+        <a href="/pages/about/index.html"> <img class="semantic-eye-logo" src="/assets/semantic-eye-logo-for-light-background.svg" alt="semantic eye logo"></a>
+    </div>
+</header>
+        
+<main>
+   <section class="first-chapter">
+    <h1>Semantic Eye Tools</h1><div class="single-column-text">
+<p>Digital tools are one of the essential buiding blocks of the Semantic Eye Framework:</p>
+<figure class="add-img-background">
+<p><img src="/assets/nutshell/framework-components.svg" alt="Key framework areas building on each other" width="400"></p>
+<p>Figure 1  |  Digital tools (middle) are an key areas of the framework</p>
+</figure>
+</div>
+<h2>The Semantic Eye Workbench</h2>
+<p class="subtitle">Eventually, the Semantic Eye Workbench will consist of about a dozen integrated components.</p>
+<h1>Components are Models plus Editors</h1>
+<p>Each component consists of an explicit model with one or more dedicated editors. Each model will be accessible through a dedicated textual grammar with a corresponding editor. Where graphical notations are made available, they will be implemented as dedicated graphical models. However, those models are always stored in textual, human readable form in the grammer that comes with the model.</p>
+<p class="take-away">Storing models as <em>human-readable and -editable text</em> allows leveraging established, state-of-the-art software-development tools like Git and Github, which allows co-creation between many process modelers and will <em>lift organisation modelling to the next level</em>.</p>
+<div class="maniculed-hint">
+    <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
+    <p>Following is an incomplete listing of the planned components, along with their implementation status and a description.</p>
+</div>
+</div>
+<div class="multi-column-text">
+<div>
+<h2>Domain Storytelling</h2>
+<p class="take-away">Status: 80% Complete.</p>
+<p>Following the Semantic Compass, which is an imporant component of the conceptual foundation, one of the main strategies of the Semantic Eye Framework is to make the main deliverables at the organisation tier more formal (see <a href="'/pages/nutshell/index.html%22%3ENutshell'">the Nutshell document</a>).</p>
+<p>However, going full formal directly from stakeholder input is not only difficult, it is not even the goal. The reason is in the degree of precision that formal models and diagrams require. Stakeholders will never and cannot provide fully formal input from the start. An intermediate format is needed.</p>
+<p class="take-away">Domain Storytelling (DST) has proven a great approach and notation to query stakeholders about what happens in their area of expertise. <em>Domain Storytelling diagrams</em> are a notation they pick up in a few minutes and that they will give feedback very quickly. They are thus are invaluable tool in capturing and aligning the feedback of mulitple domain experts, future users, partners, etc.</p>
+<p>There is a free and effective online editor available to create and maintain DST diagrams in any internet browser (ADD LINK). However, that editor</p>
+<ul>
+<li>only looks at one diagram at a time;</li>
+<li>allows using and saving DST models via up- and download, respectively, only;</li>
+<li>requires recurring icons and to be configured again for each diagram (the editor supports <em>icon sets</em> so be saved and reused, however);</li>
+<li>leaves the onus of keeping recurring element names and icons consistent across multiple diagrams on the user;</li>
+<li>saves models in JSON format which does not lend itself to concurrent modelling and merging of versions.</li>
+</ul>
+<p>DST diagrams have thus been chosen as the first tool component. They will pilot a few essential features:</p>
+<ul>
+<li>shared icon libraries;</li>
+<li>story books with multiple DST diagrams;</li>
+<li>share of agents (actors) and work objects (name, icon, color) across the diagramms of a book;</li>
+<li>delegation within a story to a different diagram;</li>
+<li>renaming of elements across all stories of a book</li>
+<li>saving of models in a human-readable programming-language text that enables concurrent modelling and merging e.g. in Git;</li>
+<li>shared modelling sessions across the internet (à la Google Docs or Miro Boards).</li>
+</ul>
+</div><div>
+<h2>Information Architecture</h2>
+<p class="take-away">Status: Planned.</p>
+<p>This is about business objects, their attributes, relationships and rules (constraints).</p>
+</div><div>
+<h2>Object Lifecycle</h2>
+<p class="take-away">Status: Planned.</p>
+</div><div>
+<h2>Component Structure</h2>
+<p class="take-away">Status: Planned.</p>
+</div><div>
+<h2>Process Overviews</h2>
+<p class="take-away">Status: Planned.</p>
+</div><div>
+<h2>Transactions (Processes Component)</h2>
+<p class="take-away">Status: Planned.</p>
+</div><div>
+<h2>Object Snapshots</h2>
+<p class="take-away">Status: Planned.</p>
+</div>
+</div>
+<div class="single-column-text">
+<h1>Technology</h1>
+<p>The Semantic Eye Workbench is built using the <a href="https://theia-ide.org/">Eclipse Theia</a> platform and frameworks.</p>
+</div></section>
+</main>
+        <footer class="footer">
+    <div class="footer-left-section">
+    </div>
+    <div class="footer-middle-section">
+        <p>All material on this website is protected by Copyright laws, 
+            <time><script>document.write(new Date().getFullYear())</script></time>, The Semantic Eye.<br>
+        The Semantic Eye is an initiative by <i>Depuzzle</i> (website coming soon)</p>
+    </div>
+    <div class="footer-right-section">
+    </div>
+</footer>
+    </body>
+</html>
