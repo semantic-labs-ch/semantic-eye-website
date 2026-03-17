@@ -17,26 +17,25 @@
     <body>
         <header class="header">
     <div class="header-left-section">
-        <nav class="dropdown__header">
-            <ul>
-                <li class="dropdown__category">
-                    <img class="hamburger-menu" src="/assets//icons/hamburger-menu.svg">
-                    <ul class="dropdown__menu">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/pages/nutshell/index.html">Nutshell</a></li>
-                        <li><a href="/pages/white-paper/index.html">White Paper</a></li>
-                        <li><a href="/pages/tools/index.html">Tools</a></li>
-                        <li><a href="/pages/references/index.html">References</a></li>
-                        <li><a href="/pages/about/index.html">About</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="navigation-menu">
+            <button class="hamburger-menu" id="menuBtn">
+                <img src="/assets//icons/hamburger-menu.svg" alt="Menu" id="menuIcon">
+            </button>
+            <nav class="dropdown-menu" id="menu">
+                <a href="/index.html">Home</a>
+                <a href="/pages/nutshell/index.html">Nutshell</a>
+                <a href="/pages/white-paper/index.html">White Paper</a>
+                <a href="/pages/tools/index.html">Tools</a>
+                <a href="/pages/references/index.html">References</a>
+                <a href="/pages/about/index.html">About</a>
+            </nav>
+            <script type="text/javascript" src="/assets/scripts/dropdown-menu.js"></script>
+        </div>
     </div>
     <div class="header-middle-section">
-        <input class="search-bar" type="text" placeholder="Search (inactive)">
+        <input class="search-bar" type="text" placeholder="Search (inactive)" alt="Search field">
         <button class="search-button">
-            <img class="search-icon" src="/assets/icons/search.svg">
+            <img class="search-icon" src="/assets/icons/search.svg" alt="Search button">
             <div class="tooltip">Search</div>
         </button>
     </div>
@@ -51,12 +50,11 @@
 <p>Digital tools are one of the essential buiding blocks of the Semantic Eye Framework:</p>
 <figure class="add-img-background">
 <p><img src="/assets/nutshell/framework-components.svg" alt="Key framework areas building on each other" width="400"></p>
-<p>Figure 1  |  Digital tools (middle) are an key areas of the framework</p>
+<p>Figure 1  |  Digital tools (middle) are a central piece of the framework</p>
 </figure>
-</div>
 <h2>The Semantic Eye Workbench</h2>
 <p class="subtitle">Eventually, the Semantic Eye Workbench will consist of about a dozen integrated components.</p>
-<h1>Components are Models plus Editors</h1>
+<h1>Workbench Components are Models with Editors</h1>
 <p>Each component consists of an explicit model with one or more dedicated editors. Each model will be accessible through a dedicated textual grammar with a corresponding editor. Where graphical notations are made available, they will be implemented as dedicated graphical models. However, those models are always stored in textual, human readable form in the grammer that comes with the model.</p>
 <p class="take-away">Storing models as <em>human-readable and -editable text</em> allows leveraging established, state-of-the-art software-development tools like Git and Github, which allows co-creation between many process modelers and will <em>lift organisation modelling to the next level</em>.</p>
 <div class="maniculed-hint">
@@ -66,26 +64,31 @@
 </div>
 <div class="multi-column-text">
 <div>
-<h2>Domain Storytelling</h2>
+<h2>Domain Storytelling (DST)</h2>
 <p class="take-away">Status: 80% Complete.</p>
 <p>Following the Semantic Compass, which is an imporant component of the conceptual foundation, one of the main strategies of the Semantic Eye Framework is to make the main deliverables at the organisation tier more formal (see <a href="'/pages/nutshell/index.html%22%3ENutshell'">the Nutshell document</a>).</p>
+<figure class="add-img-background">
+<p><img src="/assets/nutshell/semantic-compass.svg" alt="Semantic Compass: detail vs. precision" width="500"></p>
+<p>Figure 2-3  |  Semantic Compass: detail vs. precision; DST is in the centre</p>
+</figure>
 <p>However, going full formal directly from stakeholder input is not only difficult, it is not even the goal. The reason is in the degree of precision that formal models and diagrams require. Stakeholders will never and cannot provide fully formal input from the start. An intermediate format is needed.</p>
-<p class="take-away">Domain Storytelling (DST) has proven a great approach and notation to query stakeholders about what happens in their area of expertise. <em>Domain Storytelling diagrams</em> are a notation they pick up in a few minutes and that they will give feedback very quickly. They are thus are invaluable tool in capturing and aligning the feedback of mulitple domain experts, future users, partners, etc.</p>
-<p>There is a free and effective online editor available to create and maintain DST diagrams in any internet browser (ADD LINK). However, that editor</p>
+<p class="take-away">Domain Storytelling has proven a great approach and notation to query stakeholders about what happens in their area of expertise. <em>Domain Storytelling diagrams</em> are a notation they pick up in a few minutes and that they will give feedback very quickly. They are thus are invaluable tool in capturing and aligning the feedback of mulitple domain experts, future users, partners, etc.</p>
+<p>There is the free and effective online domain-story-model editor available to create and maintain DST diagrams in any internet browser (<a href="https://egon.io/app/">egon.io/app/</a>). However, that editor poses as few limitations for broader-scale use:</p>
 <ul>
 <li>only looks at one diagram at a time;</li>
-<li>allows using and saving DST models via up- and download, respectively, only;</li>
-<li>requires recurring icons and to be configured again for each diagram (the editor supports <em>icon sets</em> so be saved and reused, however);</li>
+<li>only allows using and saving DST models via browser up- and download, respectively;</li>
+<li>requires recurring icons and to be configured again for each diagram (the editor does support <em>icon sets</em> to be saved and reused, however);</li>
 <li>leaves the onus of keeping recurring element names and icons consistent across multiple diagrams on the user;</li>
 <li>saves models in JSON format which does not lend itself to concurrent modelling and merging of versions.</li>
 </ul>
-<p>DST diagrams have thus been chosen as the first tool component. They will pilot a few essential features:</p>
+<p>And most importantly: as a half-way house between the informal and the formal description of processes, DST models are the place where new concepts, elements and activities make their first appearance inside the Cosmos. For traceability, it is essential that these models are fully integrated into the Workbench, which is not possible and/or effective if DST models are managed outside the Workbench and the editor was built with different technology.</p>
+<p>DST diagrams have thus been chosen as the first tool component. Semantic Eye DST will pilot a few essential features:</p>
 <ul>
 <li>shared icon libraries;</li>
 <li>story books with multiple DST diagrams;</li>
 <li>share of agents (actors) and work objects (name, icon, color) across the diagramms of a book;</li>
+<li>renaming of elements across all stories of a book;</li>
 <li>delegation within a story to a different diagram;</li>
-<li>renaming of elements across all stories of a book</li>
 <li>saving of models in a human-readable programming-language text that enables concurrent modelling and merging e.g. in Git;</li>
 <li>shared modelling sessions across the internet (à la Google Docs or Miro Boards).</li>
 </ul>

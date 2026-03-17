@@ -1,25 +1,24 @@
 <header class="header">
     <div class="header-left-section">
-        <nav class="dropdown__header">
-            <ul>
-                <li class="dropdown__category">
-                    <img class="hamburger-menu" src="/assets//icons/hamburger-menu.svg">
-                    <ul class="dropdown__menu">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/pages/nutshell/index.html">Nutshell</a></li>
-                        <li><a href="/pages/white-paper/index.html">White Paper</a></li>
-                        <li><a href="/pages/tools/index.html">Tools</a></li>
-                        <li><a href="/pages/references/index.html">References</a></li>
-                        <li><a href="/pages/about/index.html">About</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="navigation-menu">
+            <button class="hamburger-menu" id="menuBtn">
+                <img src="/assets//icons/hamburger-menu.svg" alt="Menu" id="menuIcon">
+            </button>
+            <nav class="dropdown-menu" id="menu">
+                <a href="/index.html">Home</a>
+                <a href="/pages/nutshell/index.html">Nutshell</a>
+                <a href="/pages/white-paper/index.html">White Paper</a>
+                <a href="/pages/tools/index.html">Tools</a>
+                <a href="/pages/references/index.html">References</a>
+                <a href="/pages/about/index.html">About</a>
+            </nav>
+            <script type="text/javascript" src="/assets/scripts/dropdown-menu.js"></script>
+        </div>
     </div>
     <div class="header-middle-section">
-        <input class="search-bar" type="text" placeholder="Search (inactive)">
+        <input class="search-bar" type="text" placeholder="Search (inactive)" alt="Search field">
         <button class="search-button">
-            <img class="search-icon" src="/assets/icons/search.svg">
+            <img class="search-icon" src="/assets/icons/search.svg" alt="Search button">
             <div class="tooltip">Search</div>
         </button>
     </div>

@@ -1,54 +1,41 @@
-/* Source of the following approach: https://leewarrick.com/blog/css-only-menus/ */
-
-.dropdown__header * {
-  padding: 0;
-  margin: 0;
-  ul {
-    padding-inline-start: 0;
-  }
-}
-.dropdown__header {
+.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0px;
   display: flex;
   align-items: center;
-}
+  justify-content: center;
 
-.dropdown__header .dropdown__categories,
-.dropdown__header .dropdown__menu {
-  display: flex;
-  list-style: none;
-}
-
-.dropdown__header li {
-  position: relative;
-  padding: 12px;
-  border-width: 1px;
-  border-color: var(--clr-dark);
-  border-bottom-style: solid;
-  text-align: center;
-
-  a:link,
-  a:visited {
-    color: var(--clr-light);
+  img {
+    width: 30px;
+    height: 30px;
+    display: block;
   }
 }
 
-.dropdown__category li:hover {
-  a:link,
-  a:visited {
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  left: 12px;
+  background: var(--clr-dark-lighter);
+  border-width: 1px;
+  border-color: var(--clr-light);
+  border-bottom-style: solid;
+  display: none; /* hide */
+
+  a {
+    display: block;
+    padding: 12px 12px;
+    color: var(--clr-light);
+    text-decoration: none;
+  }
+  a:hover {
     color: var(--clr-accent);
     font-weight: bold;
   }
 }
 
-.dropdown__header .dropdown__category .dropdown__menu {
-  display: none;  /* hide */
-  position: absolute;
-  background: var(--clr-dark-lighter);
-  top: 56px;
-  left: -40px;
-  width: 140px;
-}
-
-.dropdown__header .dropdown__category:hover .dropdown__menu {
+.dropdown-menu.show {
   display: block; /* show */
 }

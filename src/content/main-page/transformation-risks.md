@@ -49,7 +49,7 @@ That complexity will be augmented further by the complexity of mastering a new s
 </div>
 </div>
     </div>
-    <script type="text/javascript" src="/assets/scripts/collapse.js"></script> 
+    <script type="text/javascript" src="/assets/scripts/collapse-content.js"></script> 
 </div>
 
 <div class="single-column-text">

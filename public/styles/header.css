@@ -25,11 +25,6 @@
   justify-content: space-between;
 }
 
-.hamburger-menu {
-  height: 36px;
-  fill: var(--clr-secondary);
-}
-
 .header-middle-section {
   flex: 1; /* applies to .header->flex */
   margin-left: 36px;
@@ -41,13 +36,13 @@
 
 .search-bar {
   flex: 1; /* applies to .header->flex */
+  width: 0;
   height: 36px;
   padding-left: 10px;
+  padding-top: 1px;    /* Required for iOS/iPadOS (have different defaults) */
+  padding-bottom: 1px; /* Required for iOS/iPadOS (have different defaults) */
   font-size: 16px;
   border: 1px solid var(--clr-secondary);
-  border-radius: 2px;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  width: 0;
 }
 
 .search-bar::placeholder {
@@ -60,9 +55,7 @@
   height: 40px;
   width: 66px;
   background-color: var(--clr-light);
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--clr-secondary);
+  border: 1px solid var(--clr-secondary);
   margin-left: -1px;
   margin-right: 10px;
 
