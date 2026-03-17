@@ -4,24 +4,33 @@ layout: 'base.njk'
 ---
 
 <main>
-   <section class="first-chapter single-column-text">
-    <h1>{{title}}</h1>
-    <p class="subtitle">The Semantic Eye focuses on processes of organisations where humans, machines and software collaborate<br>
-    to achieve goals and create value in a controlled and repeatable fashion.</p>
+     <section class="first-chapter single-column-text">
+          <h1>{{title}}</h1>
+          <p class="subtitle">The Semantic Eye focuses on processes of organisations where humans, machines and software collaborate<br>
+          to achieve goals and create value in a controlled and repeatable fashion.</p>
 
-    <p>Digital transformation (short: <em>digitalisation</em>) is the support or the partial or full automation of manual activities and
-    processes with software. All organisations struggle with their digitalisation, sometimes to the point where it threatens their existence.</p>
-   </section>
-   
-   {%- include 'src/content/nutshell/download-nutshell.njk' -%}
+          <p>Digital transformation (short: <em>digitalisation</em>) is the support or the partial or full automation of manual activities and
+          processes with software. All organisations struggle with their digitalisation, sometimes to the point where it threatens their existence.</p>
+     </section>
 
-   <section class="chapter">
-        {%- renderFile 'src/content/nutshell/framework.md' -%}
-   </section>
+     {%- include 'src/content/nutshell/download-nutshell.njk' -%}
 
-   <section class="chapter">
-        {%- renderFile 'src/content/nutshell/malaise.md' -%}
-   </section>
+     <section class="chapter">
+          {%- renderFile 'src/content/nutshell/framework.md' -%}
+     </section>
 
-   {%- include 'src/content/nutshell/download-nutshell.njk' -%}
+     <section class="chapter">
+          {%- renderFile 'src/content/nutshell/malaise.md' -%}
+     </section>
+
+     <section class="chapter">
+          <h1>Eager to Know More?</h1>
+          Do you like what you just read? — Then turn to the white paper to learn more!
+
+          <h2>The Semantic Eye White Paper</h2>
+               <div class="maniculed-hint">
+               <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
+               <a href="/pages/white-paper/index.html">Read or Download PDF (20 pages)</a>
+          </div>
+     </section>
 </main>

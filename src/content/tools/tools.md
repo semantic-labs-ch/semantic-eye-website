@@ -33,7 +33,7 @@ Following the Semantic Compass, which is an imporant component of the conceptual
 
 <figure class="add-img-background">
 
-![Semantic Compass: detail vs. precision](/assets/nutshell/semantic-compass.svg){width="500"}
+![Semantic Compass: detail vs. precision](/assets/tools/semantic-compass-with-dst.svg){width="500"}
 
 Figure 2-3  |  Semantic Compass: detail vs. precision; DST is in the centre
 </figure>

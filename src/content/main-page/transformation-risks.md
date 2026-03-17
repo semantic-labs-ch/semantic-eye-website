@@ -56,15 +56,15 @@ That complexity will be augmented further by the complexity of mastering a new s
 
 The predominant digitalisation strategy of organisations is to cast out their nets in hope of finding a technology partner that «runs» the digital-transformation show for them.{.take-away}
 
-Eager technology partners are taking on that challenge in the absence of experts able to methodically explore and master the organisation's «business» complexity. Instead, they seek remedy on the technology side &mdash; which won't work because this is not where the root of the problem lies. _Inevitably  the wrong solution is built_. Project failure is then a matter of time.
+Eager technology partners are taking on that challenge in the absence of experts able to methodically explore and master the organisation's «business» complexity. Instead, they seek remedy on the technology side &mdash; which won't work because this is not where the root of the problem lies. _Inevitably,   wrong solutions are built_. Project failure is then a matter of time.
 
 ### Can this be avoided?
 
-Yes. There is _a third, preferrable option_.
+Yes. There is a third, _preferrable option c._
 
-In order to contain the great threats digital transformations create for organisations, _we need to change the narrative_{.standout}:
+But _we need to change the narrative_{.standout} in order to contain the great threats digital transformations create for organisations:
 
-Organisations must take full responsibility and leadership of their own digital transformation &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
+Organisations must take full _responsibility and leadership_ of their own digital transformation &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
 
 ### But how should they do that?
 
@@ -72,12 +72,15 @@ Currently, the digital-transformation industry that takes care of organisations 
 
 There is _no integral methodology and technology_ for the safe and predictable digitalisation of organisations.{.take-away}
  
-The Semantic Eye Framework was specifically created to fill the abyss that is opening when organisations decide to take fate into their own hands:{.subtitle}
+The Semantic Eye Framework was specifically created to fill the abyss that is opening when organisations decide to take fate into their own hands.{.subtitle}
 
+It offers these principal benefits to adopting organisations:
 <div class="subtitle">
 
 - It empowers organisations as the source, the target and the driver of their own digital transformation
 - It reduces dependencies on IT suppliers by relying on new, impactful methods, tools and processes
 - It makes organisational processes and digital transformation a successful and satisfying endeavour
 </div>
+
+### Read on to find out how the Semantic Eye Framewok saves the digital transformation of your organisation.
 </div>
