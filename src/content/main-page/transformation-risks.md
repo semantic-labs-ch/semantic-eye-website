@@ -2,9 +2,21 @@
 
 _Organisations need digital transformations to ensure and improve the productivity, quality and innovation of their products and services_.
 
+<figure>
+    <img src="/assets/transformation-risks/sheep-on-tractor-1.jpg" alt="La trahison des images" width="300">
+
+    Source: [[1]](/pages/references/index.html#1)
+</figure>
+
 Only: Digital transformation (short: _digitalisation_) is a high-risk endeavor, as is sadly evidenced by too many failing projects.{.take-away}
 
-A closer look at organisations struggling or even failing in their digitalisation strategy reveals recurring patterns.
+<figure>
+    <img src="/assets/transformation-risks/sheep-on-tractor-2.jpg" alt="La trahison des images" width="300">
+</figure>
+
+A closer look at organisations struggling or even failing in their digitalisation strategy reveals recurring patterns. 
+
+Any digital transformations is an _exercise in massive complexity_{.standout} at many levels and across many dimensions. It turns out that complexity is the source of the hightest digitalisation risks for an organisation. It seems logical and legitimate for organisations to offload these risks to suitable partners.{.take-away} 
 
 ## Different Awareness and Proficiency of Complexity and Risks
 Each organisation is different, but over time, two typical digitalisation scenarios have emerged depending on the maturity of the respective industry.
@@ -68,7 +80,7 @@ Organisations must take full _responsibility and leadership_ of their own digita
 
 ### But how should they do that?
 
-Currently, the digital-transformation industry that takes care of organisations and their processes does not provide widely accepted methodology or tools to even remotely match other industries' established maturity and track record in dealing with complexity. Think of building construction, automotive, aerospace, computer-game design, or chip design and manufacturing! In fact:
+Currently, the digital-transformation industry that takes care of organisations and their processes does not provide widely accepted methodology or tools to even remotely match other industries' established maturity and track record in dealing with complexity. Think of building construction, automotive, aerospace, real-time computer games, or chip design and manufacturing! In fact:
 
 There is _no integral methodology and technology_ for the safe and predictable digitalisation of organisations.{.take-away}
  
