@@ -27,7 +27,7 @@ Organisations that are active in well-understood subject areas and that rely on 
 The organisation will mostly adopt the out-of-the box modules and processes of the chosen solution; the solution is branded and customised largely through configuration rather than full-on software development.{.take-away}
 
 ### 2. Non-Standard Business
-Organisations with non-standard subject areas or processes have particularly high digitalisation risks due their unawareness to the enormous complexity own their own operations. These organisations usually choose between two main options both of which lead to strong, long-lasting dependencies on technology partners.
+Organisations with non-standard subject areas or processes have particularly high digitalisation risks due their unawareness to the enormous complexity own their own operations. These organisations usually decide between two main _choices a. and b._ both of which lead to strong, long-lasting dependencies on technology partners.
 </div>
 
 <div class="collapsible-container">
@@ -72,9 +72,10 @@ Eager technology partners are taking on that challenge in the absence of experts
 
 ### Can this be avoided?
 
-Yes. There is a third, _preferrable option c._
+Yes. There is a third, _preferrable choice c._ :
 
-But _we need to change the narrative_{.standout} in order to contain the great threats digital transformations create for organisations:
+In order to contain the great threats digital transformations create for organisations,
+_it changes the narrative_{.standout}:
 
 Organisations must take full _responsibility and leadership_ of their own digital transformation &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
 

@@ -13,14 +13,29 @@
   border-color: var(--clr-secondary);
   border-width: 1px;
   border-top-style: solid;
+
+  p {
+    font-size: 1rem;
+  }
 }
 
+/* LEFT */
 .footer-left-section {
   margin-left: 24px;
   display: flex;
   align-items: center;
+  min-width: 100px;
 }
 
+.eleventy {
+  .eleventy-icon {
+    height: 12px;
+    display: inline-block;
+    fill: var(--clr-secondary);
+  }
+}
+
+/* MIDDLE */
 .footer-middle-section {
   flex: 1;
   margin-left: 36px;
@@ -29,17 +44,27 @@
   /* display: flex; */
   align-items: center;
   text-align: center;
-
-  p {
-    font-size: 1rem;
-  }
 }
 
+/* RIGHT */
 .footer-right-section {
-  max-width: 180px;
+  min-width: 150px;
+  /* max-width: 180px; */
   margin-right: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 700px) {
+
+  .footer-left-section {
+    display: none;
+  }
+  
+  .footer-right-section {
+    display: none;
+  }
 }

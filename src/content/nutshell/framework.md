@@ -130,6 +130,6 @@ Here are the top three benefits the Semantic Eye Framework offers to organisatio
 Organisations that see potential benefits in using the Semantic Eye Framework (or parts of it) for their own digital transformation should consider these steps:
 
 - Study the _«Semantic Eye White Paper_» that can be downloaded [over here](/pages/white-paper/index.html).
-- Get professional guidance and support by <i>Depuzzle</i> (website coming soon).
+- Get professional guidance and support by <i>d-puzzle</i> (website coming soon).
 </div>
 </div>

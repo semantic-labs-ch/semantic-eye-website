@@ -18,9 +18,9 @@ This is what the Semantic Eye Framework has been developed for.
 The Semantic Eye Framework 1.0 focuses on organisations, their subject areas and organisational processes.
 Future release may extend support to other fields of digitalisation.{.take-away}
 
-The Semantic Eye and its framework are an initiative by <i>Depuzzle</i>.
+The Semantic Eye and its framework are an initiative by <i>d-puzzle</i>.
 
-Get their professional guidance and support for your project over at …  (website coming soon).{.subtitle}
+Get their professional guidance and support for your project over at <i>d-puzzle.ch</i> (website coming soon).{.subtitle}
 
 ## About the Logo
 In case you're wondering why the logo of the Semantic Eye _is not an eye_, then be warned that it _is not a hand either_.
@@ -35,4 +35,4 @@ The pun harkens back to the famous 1929 painting by René Magritte called _La tr
 
 The painting caused a lot of controversy because it shows a pipe and at the same time claims, «this is not a pipe».<br>Of course, Magritte is right &mdash; what he painted is _an image of a pipe_. He delivered the proof as a question:
 «Can I smoke it?»
-<p class="take-away">This is what semantics are about and why they merit more attention. Aligned semantics make all the difference.
+<p class="take-away">This is what semantics are about and why they merit more attention. Aligned semantics make all the difference.</p>
