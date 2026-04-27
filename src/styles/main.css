@@ -59,6 +59,32 @@
   font-weight: bold;
 }
 
+.footnote {
+  font-family: serif;
+  font-weight: ligher;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  text-align: start;
+  scroll-margin-top: calc(100vh - 70px);
+}
+
+.footnotes {
+  position: relative;
+  padding: 0.3rem 0;
+  margin: 1.0rem 0;
+}
+
+
+.footnotes::before {  /* pseudo element */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 1px;
+  background-color: var(--clr-secondary);
+}
+
 .air {
   margin-top: 0.8rem;
 }
@@ -98,7 +124,7 @@
   }
 }
 
-.multi-column-text > div > p:not(.subtitle, .take-away),
+.multi-column-text > div > p:not(.subtitle, .take-away, .footnote),
 .multi-column-text > div > ul > li,
 .multi-column-text a {
   font-family: serif;

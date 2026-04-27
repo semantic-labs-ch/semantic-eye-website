@@ -72,12 +72,12 @@ Eager technology partners are taking on that challenge in the absence of experts
 
 ### Can this be avoided?
 
-Yes. There is a third, _preferrable choice c._ :
+Yes. There is a third, _preferrable choice c_.
 
-In order to contain the great threats digital transformations create for organisations,
-_it changes the narrative_{.standout}:
+In order to contain the great threats that digital transformations create for organisations,
+_it changes the narrative:_{.standout}
 
-Organisations must take full _responsibility and leadership_ of their own digital transformation &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
+Organisations take full _responsibility and leadership_ of their own digital transformation &mdash; instead of trying to offload them to technology partners and hope for the best.{.take-away}
 
 ### But how should they do that?
 

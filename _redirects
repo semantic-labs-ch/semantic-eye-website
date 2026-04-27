@@ -1,0 +1,5 @@
+# Redirect the naked semantic-eye.com
+https://semantic-eye.com/* https://www.semantic-eye.org/:splat 301!
+
+# Redirect any subdomain of semantic-eye.com (www, public, etc.)
+https://*.semantic-eye.com/* https://www.semantic-eye.org/:splat 301!

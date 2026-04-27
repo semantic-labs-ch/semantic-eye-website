@@ -30,6 +30,11 @@ body {
   
 }
 
+* {
+  scroll-margin-top: 30px; /* Matches header height + some margin */
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3 {

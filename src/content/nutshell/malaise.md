@@ -22,16 +22,16 @@ Here are a few examples: computer-chip design and manufacturing; global weather 
 
 ## 1. Automation and Innovation are Hard
 
-Digitalisation is an _automation_ problem, and automation is the holy grail of any discipline. Automating even a small part of a subject area requires  a level of awareness and domination of that area and of its _complexity_ that is beyond the successful daily operations. Also, automation also goes hand in hand with _innovation_. Innovation is equally hard. 
+Digitalisation is an _automation_ problem, and automation is the holy grail of any discipline. Automating even a small part of a subject area requires  a level of awareness and domination of that area and of its _complexity_ that is beyond the successful daily operations. Also, automation goes hand in hand with _innovation_&mdash;innovation is equally hard. 
 
-What compounds the complexity is the fact that both the solution before the transformation («_as is_») and after the transformation («_to be_») have to be considered and mastered.
+What compounds the complexity is the fact that the solution both before the transformation («_as is_») and after the transformation («_to be_») have to be considered and mastered&mdash;and the transition between the two.
 
-Designing a new or simply a «better» solution requires several «ingredients», for example:
+Designing a new or simply a «better» solution requires several ingredients, for example:
 
 - a deep understanding of the organisation, its strategy, the involved subject areas and processes;
 - a body of precise requirements for the new solution;
 - a solid grip on the technology currently in use and on the candidate technologies for the new solution;
-- the ability to envision the solution _to be_ and to evaluated its effectivity, efficiency and acceptance;
+- the abilities to envision the solution «to be» and to evaluate its effectivity, efficiency and acceptance;
 - creativity, courage and persistence.
 
 Obviously, understanding is key. In complex environments, understanding is a group exercise in communication and knowledge management—yet another huge challenge for organisations.
@@ -41,16 +41,16 @@ Obviously, understanding is key. In complex environments, understanding is a gro
 
 The principal reason behind the recurring problems of digital-transformations of organisation is as simple as it is sobering: 
 
-Most organisations do not master the combined complexity of their strategy, requirements, subject areas and processes at the level required for automation and innovation.{.take-away}
+Most organisations do not master the combined complexity of their strategy, new requirements, subject areas and processes at the level required for successful automation and innovation.{.take-away}
 
 Let’s call this the _organisational complexity_. Mastering the _technical complexity_ is the responsibility of technical experts and partners. 
 
-It is worth noting that the weak point in digital transformations is usually not the actual development of the software programs and components—once the development teams have a clear, high-quality specification for what to build. Both software development and software quality have made enormous progress in terms of methods and tools over the last 20 years thanks to automation.
+It is worth noting that the weak point in digital transformations is usually not the actual development of the software programs and components once the development teams have a clear, high-quality specification for what to build. Both software development and software quality have made enormous progress in terms of methods, tools and quality over the last 20 years thanks to automation in the development discipline itself.
 </div><div>
 
 ## 4. Breaking Down Complexity
 
-At this point, the three tiers of transformation become a helpful instrument: digital transformations break down into activity on three mutually-dependant tiers:
+At this point, the three tiers of transformation become a helpful instrument: digital transformations span three mutually-dependant areas of concern, called tiers:
 
 <figure class="add-img-background">
 
@@ -59,26 +59,32 @@ At this point, the three tiers of transformation become a helpful instrument: di
 Figure 1-1  |  Transformation tiers and mutual influences (green)
 </figure>
 
-- The Strategy tier must identify and define the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
+- Strategy provides direction. It identifies and defines the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
+- Organisation is a conceptual view. It  ➊ masters the _knowledge_, rules and complexity of the relevant _subject areas_; ➋ coordinates the resources provided by the Technology tier in ways that realise the strategy.
+- Technology provides the resources. It defines what is _feasible_ and _exactly how_, and buys, hires, makes or adapts the required active and passive resources.
 - The Technology tier defines what is _feasible_ and _how_, and eventually provides the _resources_ to do so.
-- The Organisation tier ➊ masters the _knowledge_, rules and complexity of the relevant _subject areas_; ➋ coordinates the resources provided by the Technology tier, to realise the given strategy.
 
-The Organisation tier is the actual scope and focus of the Semantic Eye initiative.
+Organisations and the Organisation tier are the actual scope and focus of the Semantic Eye initiative.
 </div><div>
 
 ## 5. Mastering Organisational Complexity
 
 Now, why are other industries able to successfully manage even greater complexity? Again, the answer is simple:
 
-While other industries have developed powerful concepts, engineering practises and sophisticated software tools at great cost, digital transformations still apply amateurish methodologies and use no digital tools worth mentioning.{.take-away}
+While other, successful industries have developed powerful concepts, engineering practises and sophisticated software tools at great cost, digital transformations still apply amateurish methodologies and use no digital tools worth mentioning.{.take-away}
 
-The  construction industry is a great role model here: it introduced precise, _true-to-scale blueprints_ in the 15th century in order to address precisely the issues discussed earlier. Construction blueprints changed everything: they can convey both the big picture and accurate details through a _standardised visual language_ that everybody in the industry understands. Blueprints allow for a clear, geographic separation of planning, costing, offering, tendering and execution.
+The  construction industry is a great role model here: it introduced precise, _true-to-scale blueprints_ in the 15th century in order to address precisely the issues discussed earlier. Construction blueprints changed everything: they can convey both the big picture and accurate details through a _highly standardised visual language_ that everybody in the industry understands. Blueprints allow for a clear, organisational separation of planning, tendering (costing, offering) and execution.
 
-Today, construction projects use sophisticated digital tools like CAD and BIM to create _3-dimensional models of buildings_. These models are carefully validated and improved by many experts in order to eliminate errors, unplanned costs and delays once construction starts. People work on such models sometimes for years before, eventually, excavators set to work.
+Today, construction projects use sophisticated digital tools like CAD and BIM<a href="#footnote3"><sup>3</sup></a> to create _3-dimensional models of buildings_. These models are carefully validated and improved by many experts in order to eliminate errors, unplanned costs and delays once construction starts. People work and align on such models sometimes for years before, eventually, excavators set to work.
+
+<div class="footnotes">
+<p id="footnote3" class="footnote"><sup>3</sup> Computer-Aided Design, Building Integration Model</p>
+</div>
+
 </div><div>
 
 ## 6. The Blind leading the Blind
-What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ on the Technology tier:
+What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ at the Technology tier:
 
 <figure class="add-img-background">
 
@@ -97,9 +103,9 @@ Thus, the two groups don’t share a common «domain language» and never fully 
 </div><div>
 
 ## 7. No Explicit Solution Description
-A big issue of progressive feature negotiation is the fact that only the requirements are documented but not the resulting solution. Eventually, the only reliable «documentation» is the software code. Software code is not helpful for domain experts and, in fact, for most stakeholders.
+A big issue of progressive feature negotiation is the fact that only the requirements are documented but not the resulting solution. Eventually, the only reliable «documentation» is the software code. Software code is gibberish to domain experts and, in fact, to most stakeholders; they cannot read and validate it.
 
-Not documenting the solution in a form that can be understood by everybody means there is no «big picture». This precludes studying, challenging and improving solutions before they are actually built. With the effect of many unnecessary _conceptual defects_ that must be fixed in the aftermath at great cost.
+Not documenting the solution in a form that can be understood by everybody means there is no «big picture». This precludes studying, challenging and improving solutions before they are actually built. With the effect of many unnecessary _conceptual defects_ that must be fixed in the aftermath, often at great cost.
 </div>
 <div>
 
@@ -114,4 +120,5 @@ We argue that, in most cases, unclear or chaotic situations can be converted at 
 A discipline that does this is engineering. It delivers with the help of mathematics (including graph theory or statistics), other formalisms (e.g. chemical formulae), or formal models (e.g. 2D or 3D blueprints, musical scores, particle flows).
 
 The Semantic Eye embraces the agile approach, however, first at the organisation tier until clarity and alignment is reached; then at the technology tier.
+</div>
 </div>
