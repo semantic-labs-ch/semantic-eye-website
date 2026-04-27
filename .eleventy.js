@@ -16,6 +16,7 @@ module.exports = defineConfig((eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('./src/styles');
     eleventyConfig.addPassthroughCopy('./src/icons');
     eleventyConfig.addPassthroughCopy('./src/assets');
+    eleventyConfig.addPassthroughCopy('./_redirects');
     
     // render markdown (an other formats) inside Nanjucks --> renderFile:
     eleventyConfig.addPlugin(EleventyRenderPlugin);
