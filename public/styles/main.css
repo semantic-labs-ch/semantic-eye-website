@@ -17,7 +17,6 @@
 
 /* Emphasis and spacing */
 
-
 .maniculed-hint {
   display: flex;
   justify-content: center;
@@ -35,6 +34,9 @@
 
 .subtitle,
 .take-away {
+  p {
+    margin-top: 0rem;
+  }
   font-size: 1.2rem;
   padding: 0.8rem 1.6rem;
   margin-top: 1.5rem;
@@ -50,6 +52,7 @@
 }
 
 .take-away {
+  max-width: 800px;
   color: var(--clr-primary);
   background-color: var(--clr-secondary);
 }
@@ -59,30 +62,16 @@
   font-weight: bold;
 }
 
-.footnote {
-  font-family: serif;
-  font-weight: ligher;
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-  text-align: start;
-  scroll-margin-top: calc(100vh - 70px);
+.framed {
+  padding: 1rem;
+  outline: 0.5px solid var(--clr-light);
 }
 
-.footnotes {
-  position: relative;
-  padding: 0.3rem 0;
-  margin: 1.0rem 0;
-}
-
-
-.footnotes::before {  /* pseudo element */
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 25%;
-  height: 1px;
-  background-color: var(--clr-secondary);
+.card {
+  display: grid;
+  columns: 1;
+  min-height: 150px;
+  /* alignment-baseline: middle; */
 }
 
 .air {
@@ -105,17 +94,44 @@
   border-top-color: var(--clr-secondary);
 }
 
-/* Responsive Design */
+.footnote {
+  font-family: serif;
+  font-weight: ligher;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  text-align: start;
+  scroll-margin-top: calc(100vh - 70px);
+}
 
-  /* Narrower lines = Better readability: */
-  .single-column-text {
-    max-width: 800px;
-    margin-inline: auto;
-  }
+.footnotes {
+  position: relative;
+  padding: 0.3rem 0;
+  margin: 1.0rem 0;
+}
+
+
+.footnotes::before {  /* horizontal line before , 25% width */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 1px;
+  background-color: var(--clr-secondary);
+}
+
+/* Responsive Design: Text */
+
+/* Narrower lines = Better readability: */
+.single-column-text {
+  max-width: 800px;
+  margin-inline: auto;
+}
 
 .two-column-text, .multi-column-text {
   display: grid;
-  grid-template-columns: minmax(300px, 700px);
+  gap: 24px;
+  grid-template-columns: minmax(300px, 800px);
   margin-top: 1rem;
   margin-bottom: 1rem;
   
@@ -135,18 +151,17 @@
 @media (min-width: 1088px) {
   
   .two-column-text {
-	  gap: 24px;
-	  grid-template-columns:
-		500px 500px;
+	  grid-template-columns: 500px 500px;
     margin-inline: auto;
   }
 
   .multi-column-text {
 	  gap: 24px;
-	  grid-template-columns:
-		repeat(auto-fit, minmax(500px, 1fr));
+	  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
 }
+
+/* Responsive Design: Images */
 
 .add-img-background {
   img {
@@ -155,21 +170,38 @@
   }
 }
 
-.image-full-width {
+.single-figure-full-width {
   min-width: 250px;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-inline: auto;
+}
 
-  p {
-    margin-top: 0.6rem;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    text-align: center;
+.multi-figure-row {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(250px, 800px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* outline: 1px solid red;  Visual debug */
+
+  figure {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 }
 
+@media (min-width: 550px) {
+
+  .multi-figure-row {
+	  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 100%; /* Remove the max-width constraint; 'repeat' won't work without it */
+  }
+}
+
+
 /* Collapsible content */
+
 .collapsible-container {
   display: grid;
   justify-items: center;

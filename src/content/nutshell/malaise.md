@@ -55,8 +55,10 @@ At this point, the three tiers of transformation become a helpful instrument: di
 <figure class="add-img-background">
 
 ![Transformation tiers and mutual influences](/assets/nutshell/digital-transformation-tiers.svg){width="180"}
+<figcaption>
 
 Figure 1-1  |  Transformation tiers and mutual influences (green)
+</figcaption>
 </figure>
 
 - Strategy provides direction. It identifies and defines the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
@@ -89,9 +91,11 @@ What do we mean by «amateurish methodologies»? A popular approach to mastering
 <figure class="add-img-background">
 
 ![Feature negotiation](/assets/nutshell/feature-negotiation.svg){width="250"}
+<figcaption>
 
 Figure 1-2  |  Feature negotiation (in dashed box);
 red: activity by organisation, blue: technology partner
+</figcaption>
 </figure>
 
 The collaboration is problematic in various ways:

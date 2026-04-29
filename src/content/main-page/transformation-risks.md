@@ -1,24 +1,33 @@
 <div class="single-column-text">
 
-_Organisations need digital transformations to ensure and improve the productivity, quality and innovation of their products and services_.
+Organisations need _digital transformations_ to ensure and improve the _productivity, quality and innovation_ of their products and services &mdash; and of themselves.
 
-<figure>
-    <img src="/assets/transformation-risks/sheep-on-tractor-1.jpg" alt="La trahison des images" width="300">
+_Beware:_{.standout}
+Digital transformation (short: _digitalisation_) is a high-risk endeavor, as is sadly evidenced by too many failing tranformation projects.{.take-away}
+</div>
 
-    Source: [[1]](/pages/references/index.html#1)
-</figure>
+<div class="multi-figure-row">
+    <figure>
+        <img src="/assets/transformation-risks/sheep-on-tractor-1.jpg" alt="two sheep on a tractor" width="300">
+    </figure>
+    <figure>
+        <img src="/assets/transformation-risks/sheep-on-tractor-2.jpg" alt="one sheep on a tractor that has run against a tree" width="300">
+    </figure>
+</div>
+<figcaption>
 
-Only: Digital transformation (short: _digitalisation_) is a high-risk endeavor, as is sadly evidenced by too many failing projects.{.take-away}
+    Digital transformations come with certain risks (Source: [[1]](/pages/references/index.html#1))
+</figcaption>
+<div class="single-column-text air">
 
-<figure>
-    <img src="/assets/transformation-risks/sheep-on-tractor-2.jpg" alt="La trahison des images" width="300">
-</figure>
+Any digital transformations is an _exercise in massive complexity_ at many levels and across many dimensions. It is very «easy» to overlook or misjudge important facts and dependencies.
 
-A closer look at organisations struggling or even failing in their digitalisation strategy reveals recurring patterns. 
+Complexity is the source of the hightest digitalisation risks for an organisation.
+Poor methodology and tools are the other high-risk contributors to failure.{.take-away} 
 
-Any digital transformations is an _exercise in massive complexity_{.standout} at many levels and across many dimensions. It turns out that complexity is the source of the hightest digitalisation risks for an organisation. It seems logical and legitimate for organisations to offload these risks to suitable partners.{.take-away} 
+For this reason, organisations try reduce risks by choosing proven software platforms and by offloading risks to suitable partners. But this is not without its problems either.
 
-## Different Awareness and Proficiency of Complexity and Risks
+## Different Profiles and Awareness of Complexity and Risk
 Each organisation is different, but over time, two typical digitalisation scenarios have emerged depending on the maturity of the respective industry.
 
 ### 1. Established, Standardized Field

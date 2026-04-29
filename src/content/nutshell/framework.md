@@ -16,9 +16,11 @@ From there, the organisation takes full ownership and control of its _value-gene
 <figure class="add-img-background">
 
 ![Shifting focus of activity to the organisation tier](/assets/nutshell/shift-focus-to-org-tier.svg){width="500"}
+<figcaption>
 
 Figure 2-1  |  Shifting focus of activity to the organisation tier
 (red: activity by organisation, blue: technology partner, green: independent technical experts)
+</figcaption>
 </figure>
 </div><div>
 
@@ -28,8 +30,10 @@ The Semantic Eye Framework was designed to support this two-pronged strategy. It
 <figure class="add-img-background">
 
 ![Key framework areas building on each other](/assets/nutshell/framework-components.svg){width="400"}
+<figcaption>
 
 Figure 2-2  |  Key framework areas building on each other
+</figcaption>
 </figure>
 </div><div>
 
@@ -39,8 +43,10 @@ The semantic compass is part of the conceptual foundation. It provides methodolo
 <figure class="add-img-background">
 
 ![Semantic Compass: detail vs. precision](/assets/nutshell/semantic-compass.svg){width="500"}
+<figcaption>
 
 Figure 2-3  |  Semantic Compass: detail vs. precision
+</figcaption>
 </figure>
 
 In contrast, the Semantic Eye crosses from the vague to the precise side as early as possible (green curve in the figure) by making all deliverables more precise and more formal. This enables early digital-tool support and automated quality checking.
@@ -52,8 +58,10 @@ Organisational processes are an end-to-end description of where and how an organ
 <figure class="add-img-background">
 
 ![What is a process?](/assets/nutshell/process-definition.svg){width="400"}
+<figcaption>
 
 Figure 2-4  |  What is a process?
+</figcaption>
 </figure>
 
 Every organisation has organisational processes.{.take-away}
@@ -75,8 +83,10 @@ who needs to do what and when<a href="#footnote1"><sup>1</sup></a>{.take-away}
 <figure class="add-img-background">
 
 ![The organisation’s cosmos](/assets/nutshell/cosmos.svg){width="500"}
+<figcaption>
 
 Figure 2-5  |  The organisation’s cosmos
+</figcaption>
 </figure>
 
 The Cosmos belongs to the Organisation tier. The Technology tier should build its own models that reference the elements of the Cosmos models for traceability.
@@ -103,8 +113,10 @@ The Semantic Eye divides the journey into a _before_ and an _after_ choosing and
 <figure class="add-img-background">
 
 ![Phases of the transformation journey](/assets/nutshell/journey.svg){width="400"}
+<figcaption>
 
 Figure 2-6  |  Phases of the transformation journey
+</figcaption>
 </figure>
 
 - _Understand_: Create a Cosmos of the solution «as is», carefully analyse it and the new strategy;
