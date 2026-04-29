@@ -1,5 +1,6 @@
+<div class="single-column-text top-border">
+
 # The Digitalisation Malaise of Organisations {#malaise}
-<div class="single-column-text">
 
 Judging by media reports &mdash; and possibly also in the reader’s own experience &mdash;, 
 something is going terribly wrong in most organisations’ digitalisation projects.{.subtitle}
@@ -37,7 +38,7 @@ Designing a new or simply a «better» solution requires several ingredients, fo
 Obviously, understanding is key. In complex environments, understanding is a group exercise in communication and knowledge management—yet another huge challenge for organisations.
 </div><div>
 
-## 3. Overwhelming Organisational Complexity
+## 2. Overwhelming Organisational Complexity
 
 The principal reason behind the recurring problems of digital-transformations of organisation is as simple as it is sobering: 
 
@@ -48,11 +49,11 @@ Let’s call this the _organisational complexity_. Mastering the _technical comp
 It is worth noting that the weak point in digital transformations is usually not the actual development of the software programs and components once the development teams have a clear, high-quality specification for what to build. Both software development and software quality have made enormous progress in terms of methods, tools and quality over the last 20 years thanks to automation in the development discipline itself.
 </div><div>
 
-## 4. Breaking Down Complexity
+## 3. Breaking Down Complexity
 
 At this point, the three tiers of transformation become a helpful instrument: digital transformations span three mutually-dependant areas of concern, called tiers:
 
-<figure class="add-img-background">
+<figure class="img-light-background">
 
 ![Transformation tiers and mutual influences](/assets/nutshell/digital-transformation-tiers.svg){width="180"}
 <figcaption>
@@ -69,7 +70,7 @@ Figure 1-1  |  Transformation tiers and mutual influences (green)
 Organisations and the Organisation tier are the actual scope and focus of the Semantic Eye initiative.
 </div><div>
 
-## 5. Mastering Organisational Complexity
+## 4. Mastering Organisational Complexity
 
 Now, why are other industries able to successfully manage even greater complexity? Again, the answer is simple:
 
@@ -85,10 +86,10 @@ Today, construction projects use sophisticated digital tools like CAD and BIM<a 
 
 </div><div>
 
-## 6. The Blind leading the Blind
+## 5. The Blind leading the Blind
 What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ at the Technology tier:
 
-<figure class="add-img-background">
+<figure class="img-light-background">
 
 ![Feature negotiation](/assets/nutshell/feature-negotiation.svg){width="250"}
 <figcaption>
@@ -106,14 +107,14 @@ The collaboration is problematic in various ways:
 Thus, the two groups don’t share a common «domain language» and never fully understand what the other side is up to. A case of «the blind leading the blind».
 </div><div>
 
-## 7. No Explicit Solution Description
+## 6. No Explicit Solution Description
 A big issue of progressive feature negotiation is the fact that only the requirements are documented but not the resulting solution. Eventually, the only reliable «documentation» is the software code. Software code is gibberish to domain experts and, in fact, to most stakeholders; they cannot read and validate it.
 
 Not documenting the solution in a form that can be understood by everybody means there is no «big picture». This precludes studying, challenging and improving solutions before they are actually built. With the effect of many unnecessary _conceptual defects_ that must be fixed in the aftermath, often at great cost.
 </div>
 <div>
 
-## 8. Agile in Digital Transformations
+## 7. Agile in Digital Transformations
 
 Advocates of agile methodology like Scrum argue that an elephant must be eaten small bytes, and that errors need to be made in order to learn and improve. Their assumption for this methodology is that all organisations and subject areas are _chaotic_. And their rationale is that mastering the complexity of chaotic environments up front is impossible.
 

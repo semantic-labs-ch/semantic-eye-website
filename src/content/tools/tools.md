@@ -2,7 +2,7 @@
 
 Digital tools are one of the essential buiding blocks of the Semantic Eye Framework:
 
-<figure class="add-img-background">
+<figure class="img-light-background">
 
 ![Key framework areas building on each other](/assets/nutshell/framework-components.svg){width="400"}
 
@@ -31,7 +31,7 @@ Status: 80% Complete.{.take-away}
 
 Following the Semantic Compass, which is an imporant component of the conceptual foundation, one of the main strategies of the Semantic Eye Framework is to make the main deliverables at the organisation tier more formal (see [the Nutshell document]('/pages/nutshell/index.html">Nutshell')).
 
-<figure class="add-img-background">
+<figure class="img-light-background">
 
 ![Semantic Compass: detail vs. precision](/assets/tools/semantic-compass-with-dst.svg){width="500"}
 

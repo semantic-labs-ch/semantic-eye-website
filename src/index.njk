@@ -13,44 +13,30 @@ layout: 'base.njk'
          <p>The Engineering Toolbox for effective Analysis, Design, Evolution and<br>Digitalisation of your Organisation and its Processes.</p>
       </div>
    </section>
+   
    <!------------------->
    <section class="chapter">
-      <h1>The Semantic Eye at a Glance</h1>
-      {%- renderFile 'src/content/main-page/transformation-risks.md' -%}
-
-      <div class="maniculed-hint">
-         <img src="assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-         <p>See the <a href="/pages/about/index.html">About page</a> for a short intro about the Semantic Eye initiative</p>
+      <div class="single-column-text top-border">
+         <h1>The Semantic Eye at a Glance</h1>
       </div>
+      
+      {%- renderFile 'src/content/main-page/at-a-glance.md' -%}
    </section>
    
    <!------------------->
    <section class="chapter">
-      <div class="single-column-text">
-      <h1>Learn More</h1>
-      </div>
-      
-      <div class="two-column-text">
-      
-         <div class="card framed">
-            <h3>The Semantic Eye Framework in a Nutshell</h2>
-            <div class="maniculed-hint">
-               <img src="assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-               <a href="/pages/nutshell/index.html">Read online, read or download PDF (4 pages)</a>
-            </div>
-         </div>
-
-
-         <div class="card framed">
-            <h3>The Semantic Eye White Paper</h2>
-            <div class="maniculed-hint">
-               <img src="assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-               <a href="/pages/white-paper/index.html">Read or Download PDF (20 pages)</a>
-            </div>
-         </div>
+      <div class="single-column-text top-border">
+         <h1>Learn More about the Semantic Eye</h1>
+         <p>Find out how the Semantic Eye Framewok saves the digital transformation of your organisation.</p>
       </div>
 
-      <p><br></p>
+      <div class="card-container">
+
+         {%- renderFile 'src/content/nutshell/nutshell-card.njk' -%}
+         {%- renderFile 'src/content/white-paper/white-paper-card.njk' -%}
+         {%- renderFile 'src/content/about/about-card.njk' -%}
+         
+      </div>
       <div class="take-away">
          <p>The Semantic Eye Framework digitalises the digital transformation of organisations 😉</p>
       </div>
