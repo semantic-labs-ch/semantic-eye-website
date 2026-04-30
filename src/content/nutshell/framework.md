@@ -1,12 +1,11 @@
-<div class="single-column-text top-border">
+<div class="single-column-text top-separator">
 
 # The Semantic Eye Framework
 </div>
 
 <div class="multi-column-text">
-<div>
 
-## 1. Introduction
+## 1. Introduction{.suppress-top-margin}
 The _Semantic Eye Framework_ takes successful industries as role models and proposes a disruptive, _strategic approach_ to overcoming the digitalisation malaise in the digital transformation of organisations:
 
 <div class="take-away">
@@ -27,7 +26,6 @@ Figure 2-1  |  Shifting focus of activity to the organisation tier
 (red: activity by organisation, blue: technology partner, green: independent technical experts)
 </figcaption>
 </figure>
-</div><div>
 
 ## 2. Key Areas
 
@@ -40,7 +38,6 @@ The Semantic Eye Framework was designed to support this two-pronged strategy. It
 Figure 2-2  |  Key framework areas building on each other
 </figcaption>
 </figure>
-</div><div>
 
 ## 3. The Semantic Compass
 
@@ -55,7 +52,6 @@ Figure 2-3  |  Semantic Compass: detail vs. precision
 </figure>
 
 In contrast, the Semantic Eye crosses from the vague to the precise side as early as possible (green curve in the figure) by making all deliverables more precise and more formal. This enables early digital-tool support and automated quality checking.
-</div><div>
 
 ## 4. Organisational Processes
 
@@ -72,7 +68,6 @@ Figure 2-4  |  What is a process?
 Every organisation has organisational processes.{.take-away}
 
 They are arguably the most frequent and relevant subjects of digital transformations. Organisational processes are the keystone of the Semantic Eye Framework and thus receive great support by the Framework.
-</div><div>
 
 ## 5. The Organisation’s «Cosmos»
 
@@ -99,7 +94,6 @@ The Cosmos belongs to the Organisation tier. The Technology tier should build it
 <div class="footnotes">
 <p id="footnote1" class="footnote"><sup>1</sup> here, <i>when</i> stands for «under what circumstances» rather than for a point in time</p>
 </div>
-</div><div>
 
 ## 6. Digital Tools
 
@@ -108,7 +102,6 @@ Formal models are a prerequisite for the design and implementation of digital to
 <div class="footnotes">
 <p id="footnote2" class="footnote"><sup>2</sup> Large Language Model</p>
 </div>
-</div><div>
 
 ## 7. Transformation Journey
 
@@ -130,12 +123,10 @@ Figure 2-6  |  Phases of the transformation journey
 - _Evolve_: frame and take ever-more highly digitalised Cosmos and solution versions.
 
 Each phase is best carried out in iterations towards its phase milestones.
-</div><div>
 
 ## 8. Patterns
 
 Whenever languages, methods and tools are being applied, best practises for their application emerge over time and can be documented as solution _patterns_. The tool platform should provide explicit support for patterns. By their statistical nature, LLMs favour repeating patterns and can play a big role in suggesting suitable patterns. AI agents can then apply them automagically.
-</div><div>
 
 ## 9. Key Benefits of the Semantic Eye Framework
 
@@ -148,7 +139,6 @@ Here are the top three benefits the Semantic Eye Framework offers to organisatio
 - The expertise embedded in the framework, its goal-driven and methodical approach, and its tool-based application significantly reduce the risks of transformation projects right from their start by aligning stakeholders and by avoiding unforced errors.
 
 - An organisation’s Cosmos is a first-quality knowledge-capturing and -management instrument. It enables the organisation to describe, study, learn, plan, align and optimise subject areas and processes long before software is being built.
-</div><div>
 
 ## 10. Where to Start?
 
@@ -156,5 +146,4 @@ Organisations that see potential benefits in using the Semantic Eye Framework (o
 
 - Study the _«Semantic Eye White Paper_» that can be downloaded [over here](/pages/white-paper/index.html).
 - Get professional guidance and support by <i>d-puzzle</i> (website coming soon).
-</div>
 </div>

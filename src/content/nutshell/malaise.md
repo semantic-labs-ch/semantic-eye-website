@@ -1,27 +1,25 @@
-<div class="single-column-text top-border">
+<div class="single-column-text top-separator">
 
 # The Digitalisation Malaise of Organisations {#malaise}
 
 Judging by media reports &mdash; and possibly also in the reader’s own experience &mdash;, 
 something is going terribly wrong in most organisations’ digitalisation projects.{.subtitle}
 </div> 
-<div class="two-column-text">
-<div>
+
+<div class="two-column-text-container top-separator bottom-separator">
+    <div class="two-column-text">
 
 Too often, such projects become an existential threat to the organisation, e.g. by massive cost overshoots, degrading performance and wearing out staff. 
 
 Pundits of the industry often claim that their software is pushing the complexity boundaries of what is humanly possible. This is a typical excuse when projects are delayed or don’t deliver on requirements or promises. The argument is hard to believe in the face of what mind-bending complexity other industries are able to master repeatably and reliably.
-</div><div>
 
 Here are a few examples: computer-chip design and manufacturing; global weather forecasts; OpenStreetMaps (OSM); aerospace (rockets and satellites); self-driving cars; supply chains and logistics; computer games with 3-dimensional worlds based on physics and behavioural simulations, computed in real time.
-</div>
-</div>
+    </div>
 </div>
 
 <div class="multi-column-text">
-<div>
 
-## 1. Automation and Innovation are Hard
+## 1. Automation and Innovation are Hard{.suppress-top-margin}
 
 Digitalisation is an _automation_ problem, and automation is the holy grail of any discipline. Automating even a small part of a subject area requires  a level of awareness and domination of that area and of its _complexity_ that is beyond the successful daily operations. Also, automation goes hand in hand with _innovation_&mdash;innovation is equally hard. 
 
@@ -36,7 +34,6 @@ Designing a new or simply a «better» solution requires several ingredients, fo
 - creativity, courage and persistence.
 
 Obviously, understanding is key. In complex environments, understanding is a group exercise in communication and knowledge management—yet another huge challenge for organisations.
-</div><div>
 
 ## 2. Overwhelming Organisational Complexity
 
@@ -47,7 +44,6 @@ Most organisations do not master the combined complexity of their strategy, new 
 Let’s call this the _organisational complexity_. Mastering the _technical complexity_ is the responsibility of technical experts and partners. 
 
 It is worth noting that the weak point in digital transformations is usually not the actual development of the software programs and components once the development teams have a clear, high-quality specification for what to build. Both software development and software quality have made enormous progress in terms of methods, tools and quality over the last 20 years thanks to automation in the development discipline itself.
-</div><div>
 
 ## 3. Breaking Down Complexity
 
@@ -62,13 +58,11 @@ Figure 1-1  |  Transformation tiers and mutual influences (green)
 </figcaption>
 </figure>
 
-- Strategy provides direction. It identifies and defines the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
-- Organisation is a conceptual view. It  ➊ masters the _knowledge_, rules and complexity of the relevant _subject areas_; ➋ coordinates the resources provided by the Technology tier in ways that realise the strategy.
-- Technology provides the resources. It defines what is _feasible_ and _exactly how_, and buys, hires, makes or adapts the required active and passive resources.
-- The Technology tier defines what is _feasible_ and _how_, and eventually provides the _resources_ to do so.
+- _Strategy_ provides direction. It identifies and defines the _goals_ and the future _products and services_ of the organisation; it must explain _why_ a transformation is needed.
+- _Organisation_ is a conceptual view. It  ➊ masters the _knowledge_, rules and complexity of the relevant _subject areas_; ➋ coordinates the resources provided by the Technology tier in ways that realise the strategy.
+- _Technology_ provides the resources. It defines what is _feasible_ and _exactly how_, and buys, hires, makes or adapts the required active and passive resources.
 
 Organisations and the Organisation tier are the actual scope and focus of the Semantic Eye initiative.
-</div><div>
 
 ## 4. Mastering Organisational Complexity
 
@@ -83,8 +77,6 @@ Today, construction projects use sophisticated digital tools like CAD and BIM<a 
 <div class="footnotes">
 <p id="footnote3" class="footnote"><sup>3</sup> Computer-Aided Design, Building Integration Model</p>
 </div>
-
-</div><div>
 
 ## 5. The Blind leading the Blind
 What do we mean by «amateurish methodologies»? A popular approach to mastering complexity is _agile_ methodology. A joint team of members from both the organisation and the software partner start on one end of an extremely complex problem, gather a bunch of requirements, and implement a solution for them. Then, they evaluate the result, gather necessary improvements and the next bunch of requirements, address those, and so on. What these teams do is progressive _feature negotiation_ at the Technology tier:
@@ -105,14 +97,11 @@ The collaboration is problematic in various ways:
 - The members of the technology partner are not trained in requirements engineering either, and usually have no previous knowledge of the relevant subject areas and processes.
 
 Thus, the two groups don’t share a common «domain language» and never fully understand what the other side is up to. A case of «the blind leading the blind».
-</div><div>
 
 ## 6. No Explicit Solution Description
 A big issue of progressive feature negotiation is the fact that only the requirements are documented but not the resulting solution. Eventually, the only reliable «documentation» is the software code. Software code is gibberish to domain experts and, in fact, to most stakeholders; they cannot read and validate it.
 
 Not documenting the solution in a form that can be understood by everybody means there is no «big picture». This precludes studying, challenging and improving solutions before they are actually built. With the effect of many unnecessary _conceptual defects_ that must be fixed in the aftermath, often at great cost.
-</div>
-<div>
 
 ## 7. Agile in Digital Transformations
 
@@ -125,5 +114,4 @@ We argue that, in most cases, unclear or chaotic situations can be converted at 
 A discipline that does this is engineering. It delivers with the help of mathematics (including graph theory or statistics), other formalisms (e.g. chemical formulae), or formal models (e.g. 2D or 3D blueprints, musical scores, particle flows).
 
 The Semantic Eye embraces the agile approach, however, first at the organisation tier until clarity and alignment is reached; then at the technology tier.
-</div>
 </div>

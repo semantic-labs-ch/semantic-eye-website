@@ -1,6 +1,9 @@
 :root {
+  --clr-lightest: #ffffff;
   --clr-light: #f0eaf3;
   --clr-dark: #130023;
+  --clr-darkest: #000000;
+
   --clr-primary: var(--clr-light);
   --clr-secondary: #909090;
   --clr-accent: #8E0B00;
@@ -85,6 +88,7 @@ em {
   padding-right: 0.1rem;
   font-weight: bold;
   font-style: normal;
+  color: var(--clr-lightest);
 }
 
 img {
@@ -100,6 +104,8 @@ figure {
   margin-bottom: 1rem;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  
+  break-inside: avoid;
 }
 
 figcaption {

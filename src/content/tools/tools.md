@@ -1,6 +1,6 @@
 <div class="single-column-text">
 
-Digital tools are one of the essential buiding blocks of the Semantic Eye Framework:
+Digital tools are one of the essential buiding blocks of the Semantic Eye Framework.{.subtitle}
 
 <figure class="img-light-background">
 
@@ -10,23 +10,31 @@ Figure 1  |  Digital tools (middle) are a central piece of the framework
 </figure>
 
 ## The Semantic Eye Workbench
-Eventually, the Semantic Eye Workbench will consist of about a dozen integrated components.{.subtitle}
+Eventually, the Semantic Eye Workbench will consist of a dozen integrated components.{.take-away}
 
-# Workbench Components are Models with Editors
-Each component consists of an explicit model with one or more dedicated editors. Each model will be accessible through a dedicated textual grammar with a corresponding editor. Where graphical notations are made available, they will be implemented as dedicated graphical models. However, those models are always stored in textual, human readable form in the grammer that comes with the model. 
-
-Storing models as _human-readable and -editable text_ allows leveraging established, state-of-the-art software-development tools like Git and Github, which allows co-creation between many process modelers and will _lift organisation modelling to the next level_.{.take-away}
-
-<div class="maniculed-hint">
-    <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
-    <p>Following is an incomplete listing of the planned components, along with their implementation status and a description.</p>
+## Workbench Components are Models with Editors
 </div>
 
+<div class="two-column-text-container top-separator bottom-separator">
+    <div class="two-column-text">
+    
+Each component consists of an explicit model with one or more dedicated editors. Each model will be accessible through a dedicated textual grammar with a corresponding editor. Where graphical notations are made available, they will be implemented as dedicated graphical models. However, those models are always stored in textual, human readable form in the grammer that comes with the model.
+
+        <div class="take-away span-columns">
+        
+Storing models as _human-readable and -editable text_ allows leveraging established, state-of-the-art software-development tools like Git and Github, which allows co-creation between many process modelers and will _lift organisation modelling to the next level_.
+        </div>
+
+        <div class="maniculed-hint span-columns">
+            <img src="/assets/manicule-for-dark-background.svg" alt="pointing manicule" height="18px">
+            <p>Following is an incomplete listing of the planned components, along with their implementation status and a description.</p>
+        </div>
+    </div>
 </div>
+
 <div class="multi-column-text">
-<div>
 
-## Domain Storytelling (DST)
+## Domain Storytelling (DST){.suppress-top-margin}
 Status: 80% Complete.{.take-away}
 
 Following the Semantic Compass, which is an imporant component of the conceptual foundation, one of the main strategies of the Semantic Eye Framework is to make the main deliverables at the organisation tier more formal (see [the Nutshell document]('/pages/nutshell/index.html">Nutshell')).
@@ -61,34 +69,27 @@ DST diagrams have thus been chosen as the first tool component. Semantic Eye DST
 - delegation within a story to a different diagram;
 - saving of models in a human-readable programming-language text that enables concurrent modelling and merging e.g. in Git;
 - shared modelling sessions across the internet (à la Google Docs or Miro Boards).
-</div><div>
 
 ## Information Architecture
 Status: Planned.{.take-away}
 
 This is about business objects, their attributes, relationships and rules (constraints).
-</div><div>
 
 ## Object Lifecycle
 Status: Planned.{.take-away}
-</div><div>
 
 ## Component Structure
 Status: Planned.{.take-away}
-</div><div>
 
 
 ## Process Overviews
 Status: Planned.{.take-away}
-</div><div>
 
 ## Transactions (Processes Component)
 Status: Planned.{.take-away}
-</div><div>
 
 ## Object Snapshots
 Status: Planned.{.take-away}
-</div>
 </div>
 
 <div class="single-column-text">
