@@ -79,7 +79,10 @@
       margin: 0 0 16px 0;
     }
       
-    p {
+    p,
+    ol,
+    ul,
+    li {
       margin-top: 0.4rem;
       color: var(--clr-dark);
       font-size: 1.2rem; 
@@ -137,13 +140,18 @@
     height: 325px;
     perspective: 1000px;  /* Remove this if you don't want the 3D effect */
     
-    .flip-me-hint {
+    .flip-me-hint,
+    .flip-me-hint-with-text {
       position: absolute;
       top: -2px;
       left: -2px;
       z-index: 10;
       width: 40px;
       height: 40px;
+    }
+
+    .flip-me-hint-with-text {
+      width: 80px;
     }
 
     /* This container is needed to position the front and back side */
@@ -167,6 +175,10 @@
       /* Safari */
       backface-visibility: hidden;
       background-color: var(--clr-light);
+
+      .card-text-content { 
+        padding-top: 40px;
+      }
     }
     
     .flip-card-front {

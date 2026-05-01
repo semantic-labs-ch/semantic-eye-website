@@ -49,15 +49,18 @@
   left: 12px;
   background: var(--clr-dark-lighter);
   border-width: 1px;
-  border-color: var(--clr-light);
+  border-bottom-color: var(--clr-secondary);
   border-bottom-style: solid;
   display: none; /* hide */
 
   a {
     display: block;
-    padding: 12px 12px;
+    padding: 8px 12px;
     color: var(--clr-light);
     text-decoration: none;
+    border-width: 1px;
+    border-top-color: var(--clr-dark);
+    border-top-style: solid;
   }
   a:hover {
     color: var(--clr-accent);
