@@ -48,7 +48,7 @@
         <img  src="/assets/card-icons/complexity.svg" alt="Icon for complexity">
         <div class="card-text-content">
             <h3>Massive Complexity</h3>
-            <p>A digital transformation is an <em>exercise in massive complexity</em> at many levels and across many dimensions.</p>
+            <p>A digital transformation is an <em>exercise in massive complexity</em> over many dimensions.</p>
             <p>It is very «easy» to <em>overlook or misjudge</em> important facts and dependencies. Often with <em>disastrous consequences</em>.</p>
         </div>
     </div>
@@ -75,7 +75,7 @@
 <!-- Looking for Help -->
 <div class="single-column-text">
     <h2>Looking for Help</h2>
-    <p>Being aware of the risks and problems of a digital transformation, organisations seek help from IT partners. This creates an unholy alliance where <em>«the blind is leading the blind»</em>.</p>
+    <p>Being aware of the risks and problems of a digital transformation, organisations seek help from IT partners. This often creates an unholy alliance where <em>«the blind is leading the blind»</em>.</p>
 </div>
 
 <div class="card-container">
@@ -97,7 +97,7 @@
         <img  src="/assets/transformation-risks/sheep-walking.jpg" alt="Cartoon of a sheep walking on two legs">
         <div class="card-text-content">
             <h3>To Reach Enlightenment</h3>
-            <p>Also, transformation is not a project but a <em>perpetual activity</em>. A technology partner in the lead means a constraining, <em>life-long dependency</em> by the organisation.</p>
+            <p>With the technology partner in the lead, the «game» is played on technology turf and with a <em>fixation on software code</em>.</p>
         </div>
     </div>
 </div>
@@ -106,7 +106,7 @@
 </figcaption>
 
 <div class="single-column-text">
-    <p class="take-away">The outcome is exactly what the organisation was trying to avoid: all critical domain knowledge ended up in the software code that only its developers fully understand.</p> 
+    <p class="take-away">The outcome is exactly what the organisation should avoid: all critical domain knowledge ends up in the software code that only its developers fully understand.</p> 
 </div>
 
 <!-- Lack of Methodology and Tools -->
@@ -130,7 +130,7 @@
         <div class="card-text-content">
             <h3>Software Construction</h3>
             <p>Especially in projects with agile methodologies, the future building-owner talks directly to the operator of the excavator.</p>
-            <p><em>There is no shared language.</em></p>
+            <p><em>There is no shared language.<br>There are no solution blueprints.</em></p>
             <p>«<i>A bit more to the right, deeper ... deeper &mdash; that's it!</i>»</p>
         </div>
     </div>
