@@ -4,7 +4,16 @@ layout: 'base.njk'
 ---
 
 <main>
+    <div class="single-column-text">
     <h1>{{title}}</h1>
+
+    <figure>
+        <img src="/assets/presentations/ocx-2026-presenting-1.jpg" width="100%">
+        <figcaption>
+            <p>Oliver Reinhard introducing the Semantic Eye at OCX 2026 in Brussels</p>
+        </figcaption>
+    </figure>
+
     <section>
         {%- renderFile 'src/content/presentations/ocx-2026.md' -%}
     </section>

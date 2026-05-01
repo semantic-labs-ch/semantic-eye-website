@@ -221,6 +221,6 @@
 </div>
 
 <div class="single-column-text">
-    <p class="take-away">The Semantic Eye Framework guides and supports this change of narrative.<br>
+    <p class="take-away"><span class="standout">The Semantic Eye Framework guides and supports this change of narrative.</span><br>
     And, no, it does not propose to go back to «waterfall» methodology.</p> 
 </div>
