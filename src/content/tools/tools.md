@@ -1,16 +1,71 @@
 <div class="single-column-text">
 
 Digital tools are one of the essential buiding blocks of the Semantic Eye Framework.{.subtitle}
+</div>
+
+
+<div class="two-column-text-container top-separator bottom-separator">
+    <div class="two-column-text">
+    
+As mentioned in a number of places on this website and in the related articles, digital transformations are notorious underachievers. Yet organisations still need to do them in order to stay relevant and competitive. The fact that <em>IT-solution providers are usually not in a position to effectively support</em> the organisation at the Organisation Tier, compounds the issue.
+
+<figure class="img-light-background">
+
+![Walking on Water](/assets/tools/playmobil-walking-on-water-1.jpeg){width="400"}
+</figure>
+
+<div class="take-away span-columns">
+
+In a metaphorical sense, organisations are trying to <em>safely transport their products and services</em> across the wide and treacherous Digital Transformation River.
+
+_However, this is an act as difficult as walking on water (Jesus to the rescue!)_{.standout}
+</div>
+
+On the other hand, IT-solution providers are using <em>very powerful tools to manage the complexity and to assure the quality</em> of their software products&mdash;with great success if one thinks back at how nerve-wreckingly bad e.g. PC software was twenty years ago. 
+
+Today, we all have dozens of apps on our smartphones and they mostly just work. So, that quality problem is sorted. And with those apps, everybody immediately finds their destination; walking, pedalling, driving. Everybody can create a video and upload it to the social platforms of choice within minutes&mdash;<em>activities reserved to skilled professionals merely a decade ago</em>.
+
+<div class="take-away span-columns">
+
+What if organisations had the same <i>kinds</i> of <em> powerful tools to manage the complexity and to assure the quality</em> of their organisational solutions, i.e. their producs and services?
+_Tools that seemingly enable practitioners to walk on water?_{.standout}
+</div>
+
+This is the critical role that especially digital tools can play: <em>providing stepping stones exactly where the user needs them</em><a href="#footnote1"><sup>1</sup></a>. Just like the diver in the image. This enables users to reach goals that are otherwise out of reach to them (unable to confirm).
+
+<div class="footnotes">
+<p id="footnote1" class="footnote"><sup>1</sup> This analogy was probably proposed by Alan Kay or Steve Wozniak</p>
+</div>
+
+<figure class="img-light-background">
+
+![Walking on Water](/assets/tools/playmobil-walking-on-water-2.jpeg){width="400"}
+</figure>
+</div>
+</div>
+
+<div class="single-column-text">
+
+## The Critical Role of Tools in the Semantic Eye Framework
+For a highly complex endeavour like a digital transformation, tools are a critical ingredient, however, very few truly digital tools are available for organisations today. This is why powerful digital tools were made the keystone of the Framework:
+
+They enable organisations to assume a new, leading role in their own transformation.{.take-away} 
 
 <figure class="img-light-background">
 
 ![Key framework areas building on each other](/assets/nutshell/framework-components.svg){width="400"}
 
-Figure 1  |  Digital tools (middle) are a central piece of the framework
+Figure 3  |  Digital tools (middle) are a central piece of the framework
 </figure>
 
 ## The Semantic Eye Workbench
-Eventually, the Semantic Eye Workbench will consist of a dozen integrated components.{.take-away}
+Eventually, the Semantic Eye Workbench will feature a dozen integrated components.{.take-away}
+
+### Roadmap
+
+The Workbench is currently under development and no public version has been released yet.
+
+<em>TBD: Release roadmap with planned features and dates.</em>
 
 ## Workbench Components are Models with Editors
 </div>
@@ -34,7 +89,7 @@ Storing models as _human-readable and -editable text_ allows leveraging establis
 
 <div class="multi-column-text">
 
-## Domain Storytelling (DST){.suppress-top-margin}
+### Domain Storytelling (DST){.suppress-top-margin}
 Status: 80% Complete.{.take-away}
 
 Following the Semantic Compass, which is an imporant component of the conceptual foundation, one of the main strategies of the Semantic Eye Framework is to make the main deliverables at the organisation tier more formal (see [the Nutshell document]('/pages/nutshell/index.html">Nutshell')).
@@ -43,7 +98,7 @@ Following the Semantic Compass, which is an imporant component of the conceptual
 
 ![Semantic Compass: detail vs. precision](/assets/tools/semantic-compass-with-dst.svg){width="500"}
 
-Figure 2-3  |  Semantic Compass: detail vs. precision; DST is in the centre
+Figure 4  |  Semantic Compass: detail vs. precision; DST is in the centre
 </figure>
 
 However, going full formal directly from stakeholder input is not only difficult, it is not even the goal. The reason is in the degree of precision that formal models and diagrams require. Stakeholders will never and cannot provide fully formal input from the start. An intermediate format is needed.
@@ -70,25 +125,24 @@ DST diagrams have thus been chosen as the first tool component. Semantic Eye DST
 - saving of models in a human-readable programming-language text that enables concurrent modelling and merging e.g. in Git;
 - shared modelling sessions across the internet (à la Google Docs or Miro Boards).
 
-## Information Architecture
+### Information Architecture
 Status: Planned.{.take-away}
 
 This is about business objects, their attributes, relationships and rules (constraints).
 
-## Object Lifecycle
+### Object Lifecycle
 Status: Planned.{.take-away}
 
-## Component Structure
+### Component Structure
 Status: Planned.{.take-away}
 
-
-## Process Overviews
+### Process Overviews
 Status: Planned.{.take-away}
 
-## Transactions (Processes Component)
+### Transactions (Processes Component)
 Status: Planned.{.take-away}
 
-## Object Snapshots
+### Object Snapshots
 Status: Planned.{.take-away}
 </div>
 

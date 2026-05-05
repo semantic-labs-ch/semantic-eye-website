@@ -44,11 +44,11 @@
 }
 
 .footnote {
-  font-family: serif;
   font-weight: ligher;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   line-height: 1.4rem;
   text-align: start;
+  text-indent: 0.8rem hanging;
   scroll-margin-top: calc(100vh - 70px);
 }
 
@@ -156,10 +156,11 @@
     break-after: avoid-column;
     break-inside: avoid;
   }
+}
   
-  p:not(.subtitle, .take-away) {
-    text-align: justify;
-  }
+.two-column-text > p,
+.multi-column-text > p {
+  text-align: justify;
 }
 
 .two-column-text > .span-columns {
@@ -167,12 +168,17 @@
 }
 
 
-.multi-column-text > p:not(.subtitle, .take-away, .footnote),
+.multi-column-text > p:not(.subtitle, .take-away),
 .multi-column-text > ul > li,
 .multi-column-text a {
   font-family: serif;
   font-weight: ligher;
   font-size: 1.3rem;
+}
+
+.multi-column-text .footnote {
+  font-family: serif;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 872px) {

@@ -1,7 +1,7 @@
 
 <div class="single-column-text top-separator">
     <h1>The Semantic Eye at a Glance</h1>
-    <p>Too often, digital transformations of organisations and their processes canont met essential goals. Some even turn into an existential threat for the organisation. And they always take much longer, cost much more, wear out and frustrate staff, partners and customers.<p>
+    <p>Too often, digital transformations of organisations and their processes cannot meet essential goals. Some even turn into an existential threat for the organisation. And they always take much longer, cost much more, wear out and frustrate staff, partners and customers.<p>
     <p class="take-away">Why should organisations do it anyway and how can they avoid pitfalls?</p>
 </div>
 
@@ -150,17 +150,18 @@
 <div class="card-container">
     <div class="flip-card">
         <div class="flip-card-sides">
-            <img class="flip-me-hint-with-text" src="assets/icons/flip-me-hint-with-text.svg" width="80">
+            <img class="flip-me-hint-with-text" src="assets/icons/flip-me-hint-with-text.svg">
             <div class="flip-card-front">
                 <div class="card-text-content">
                     <h3 class="more-air">Instead of ...</h3>
                     <p>... accepting that transformations are <em>inevitably chaotic</em>, more complex and more expensive than planned ...</p>
                 </div>
+                <img class="image-at-bottom" src="/assets/card-icons/change-narrative.svg" alt="Icon">
             </div>
             <div class="flip-card-back">
                 <div class="card-text-content">
-                    <h3>... the organisation does this:</h3>
-                    <p>It makes the transformation <em>predictable by using digital tools</em> to create two aligned solution models: one for the present, one for the future.</p>
+                    <h3>... the organisation ...</h3>
+                    <p>... makes the transformation <em>predictable by using digital tools</em> to create two aligned solution models: one for the present, one for the future.</p>
                     <p>The actual transformation is the <em>delta between present and future</em>.
                 </div>
             </div>
@@ -173,11 +174,12 @@
                     <h3 class="more-air">Instead of ...</h3>
                     <p>... the organisation starting the transformation by choosing a <em>technology partner</em> who then <em>leads</em> the transformation ...</p>
                 </div>
+                <img class="image-at-bottom" src="/assets/card-icons/change-narrative.svg" alt="Icon">
             </div>
             <div class="flip-card-back">
                 <div class="card-text-content">
-                    <h3>... the organisation does this:</h3>
-                    <p>It first creates a solid <em>shared view of the future</em>.</p>
+                    <h3>... the organisation ...</h3>
+                    <p>... first creates a solid <em>shared view of the future</em>.</p>
                     <p>Next it evaluates and chooses its <em>technology platforms</em> and <em>technology partners</em>.</p>
                     <p>Then it <em>leads</em> its own transformation.</p>
                 </div>
@@ -191,11 +193,12 @@
                     <h3 class="more-air">Instead of ...</h3>
                     <p>... the organisation gathering <em>requirements</em> and throwing them <em>over the fence</em> for the technology partner to find a solution ...</p>
                 </div>
+                <img class="image-at-bottom" src="/assets/card-icons/change-narrative.svg" alt="Icon">
             </div>
             <div class="flip-card-back">
                 <div class="card-text-content">
-                    <h3>... the organisation does this:</h3>
-                    <p>It turns the requirements into a detailed, <em>aligned semantic solution model</em>.</p>
+                    <h3>... the organisation ...</h3>
+                    <p>... turns the requirements into a detailed, <em>aligned semantic solution model</em>.</p>
                     <p>It makes that model the <em>contract</em> with the technology partner.</p>
                 </div>
             </div>
@@ -208,11 +211,12 @@
                     <h3 class="more-air">Instead of ...</h3>
                     <p>... the organisation and the technology partner <em>designing individual software features</em> together ...</p>
                 </div>
+                <img class="image-at-bottom" src="/assets/card-icons/change-narrative.svg" alt="Icon">
             </div>
             <div class="flip-card-back">
                 <div class="card-text-content">
-                    <h3>... the organisation does this:</h3>
-                    <p>It defines coherent <em>end-to-end processes</em>, which become the <em>units of realisation</em>.</p>
+                    <h3>... the organisation ...</h3>
+                    <p>... defines coherent <em>end-to-end processes</em>, which become the <em>units of realisation</em>.</p>
                     <p>(Note: not all activities of a process can be automated or supported by software but still need planned realisation)</p>
                 </div>
             </div>

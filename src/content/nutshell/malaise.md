@@ -72,10 +72,10 @@ While other, successful industries have developed powerful concepts, engineering
 
 The  construction industry is a great role model here: it introduced precise, _true-to-scale blueprints_ in the 15th century in order to address precisely the issues discussed earlier. Construction blueprints changed everything: they can convey both the big picture and accurate details through a _highly standardised visual language_ that everybody in the industry understands. Blueprints allow for a clear, organisational separation of planning, tendering (costing, offering) and execution.
 
-Today, construction projects use sophisticated digital tools like CAD and BIM<a href="#footnote3"><sup>3</sup></a> to create _3-dimensional models of buildings_. These models are carefully validated and improved by many experts in order to eliminate errors, unplanned costs and delays once construction starts. People work and align on such models sometimes for years before, eventually, excavators set to work.
+Today, construction projects use sophisticated digital tools like CAD and BIM<a href="#footnote1"><sup>1</sup></a> to create _3-dimensional models of buildings_. These models are carefully validated and improved by many experts in order to eliminate errors, unplanned costs and delays once construction starts. People work and align on such models sometimes for years before, eventually, excavators set to work.
 
 <div class="footnotes">
-<p id="footnote3" class="footnote"><sup>3</sup> Computer-Aided Design, Building Integration Model</p>
+<p id="footnote1" class="footnote"><sup>1</sup> Computer-Aided Design, Building Integration Model</p>
 </div>
 
 ## 5. The Blind leading the Blind

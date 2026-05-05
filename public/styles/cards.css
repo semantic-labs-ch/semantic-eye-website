@@ -143,11 +143,9 @@
     .flip-me-hint,
     .flip-me-hint-with-text {
       position: absolute;
-      top: -2px;
-      left: -2px;
+      top: 0px;
+      left: 0px;
       z-index: 10;
-      width: 40px;
-      height: 40px;
     }
 
     .flip-me-hint-with-text {
@@ -166,7 +164,8 @@
     }
     
     .flip-card-front,
-    .flip-card-back {
+    .flip-card-back,
+    .flip-card-image-only {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -179,9 +178,16 @@
       .card-text-content { 
         padding-top: 40px;
       }
+
+      .image-at-bottom {
+        position: absolute;
+        bottom: 40px;
+        left: 0px;
+        width: 325px;
+      }
     }
     
-    .flip-card-front {
+    .flip-card-image-only {
       
       img {
         width: 100%;
