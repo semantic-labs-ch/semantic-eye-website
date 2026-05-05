@@ -144,7 +144,7 @@
 <div class="single-column-text">
     <h2>Changing the Narrative</h2>
     <p>Today, the digital transformation of organisations and their processes follows an <em>outdated narrative</em> that other, <em>digitally more successful</em> industries turned on its head decades or even centuries ago.</p>
-    <p>Here's a <em>New Game Plan</em>.</p>
+    <p>Here's a <em>New Game Plan:</em></p>
 </div>
 
 <div class="card-container">

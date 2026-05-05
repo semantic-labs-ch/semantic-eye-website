@@ -51,12 +51,18 @@ h2, h3 {
   margin-top: 2.5rem;
 }
 
+h1 {
+  line-height: 3.2rem;
+}
+
 h2 {
   font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 h3 {
   font-size: 1.3rem;
+  line-height: 1.9rem;
 }
 
 p,
