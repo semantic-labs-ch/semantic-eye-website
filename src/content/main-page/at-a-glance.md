@@ -242,7 +242,7 @@
         <img  src="/assets/card-icons/process-engineering.svg" alt="Icon">
         <div class="card-text-content">
             <h3>Process Blueprints</h3>
-            <p>The technology partner receives a <em>process blueprint</em> for context and uses it as the <em>contract</em> to implement those activities that need <em>digital automation or support</em>.</p>
+            <p>The technology partner receives a <em>process blueprint</em> for context and <em>collaborates</em> to make it the <em>contract</em> for the implementation of those activities that need <em>digital automation or support</em>.</p>
         </div>
     </div>
 </div>
