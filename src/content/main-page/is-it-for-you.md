@@ -8,7 +8,7 @@
         <div class="card-text-content">
             <h3>IF you are involved in an<br>IT project that ...</h3>
             <p>... <em>fails</em> to meet essential <em>goals</em>,</p>
-            <p>... was grossely <em>underestimated</em>,</p>
+            <p>... was grossly <em>underestimated</em>,</p>
             <p>... is <em>in planning</em> or about to start.</p>
         </div>
     </div>
@@ -24,7 +24,7 @@
         <img  src="/assets/card-icons/sef-yes.svg" alt="Icon for SEF is for you">
         <div class="card-text-content">
             <h3>... THEN ...</h3>
-            <p>... the Semantic Eye Framework<br><em class="standout">is exactly what you need!</em></p>
+            <p>... the Semantic Eye Framework is<br><em class="standout">exactly what you need!</em></p>
             <p ><em>ELSE</em> the Semantic Eye might still tickle your digitalisation mind.</p>
         </div>
     </div>

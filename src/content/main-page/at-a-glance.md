@@ -16,7 +16,7 @@
     <div class="image-text-card">
         <img  src="/assets/card-icons/challenge.svg" alt="Icon of three athletes on podium">
         <div class="card-text-content">
-            <h3>Fabulous Challenge</h3>
+            <h3>Formidable Challenge</h3>
             <p>A digital transformation is one of the <em>most challenging things</em> an organisation will ever do.</p>
             <p>It will <em>forever change</em> that organisation to its core.</p>
         </div>
@@ -106,13 +106,13 @@
 </figcaption>
 
 <div class="single-column-text">
-    <p class="take-away">The outcome is exactly what the organisation should avoid: all critical domain knowledge ends up in the software code that only its developers fully understand.</p> 
+    <p class="take-away">The outcome is exactly what organisations should avoid: <em>all critical domain knowledge</em> ends up in the software code that only its developers fully understand.<br>It makes the domain specialists forever <em>dependent</em> on specific software people &mdash; who usually move on after a few years.</p> 
 </div>
 
 <!-- Lack of Methodology and Tools -->
 <div class="single-column-text">
     <h2>Lack of Methodology and Tools</h2>
-    <p>Let's illustrate what this actually means in relation to e.g. Building Contstruction. While building architects have been using such wonderful tools as <em>CAD</em> or <em>BIM</em> since the 1970s, professionals who digitalise organisational processes continue to use the digital equivalents of pencils and paper.</p>
+    <p>Let's illustrate what this actually means in relation to e.g. Building Contstruction. While building architects have been using such wonderful tools as <em>CAD</em> or <em>BIM</em> since the 1970s, professionals who digitalise organisational processes continue to use the <em>digital equivalents of pencils and paper</em>.</p>
 </div>
 
 <div class="card-container">
@@ -126,7 +126,7 @@
         </div>
     </div>
     <div class="image-text-card">
-        <img  src="/assets/card-icons/software-construction.svg" alt="Icon for complexity">
+        <img  src="/assets/card-icons/software-construction.svg" alt="Icon">
         <div class="card-text-content">
             <h3>Software Construction</h3>
             <p>Especially in projects with agile methodologies, the future building-owner talks directly to the operator of the excavator.</p>
@@ -137,7 +137,8 @@
 </div>
 
 <div class="single-column-text">
-    <p class="take-away">Construction blueprints are <em>conceptual, shared models of the future building</em>.</p> 
+    <p class="take-away">A construction blueprint is a <em>conceptual, shared model of the future building</em>.<br>
+    It is <em>a binding contract</em> between all involved parties.</p> 
 </div>
 
 <!-- Changing the Narrative -->
@@ -150,8 +151,8 @@
 <div class="card-container">
     <div class="flip-card">
         <div class="flip-card-sides">
-            <img class="flip-me-hint-with-text" src="assets/icons/flip-me-hint-with-text.svg">
             <div class="flip-card-front">
+                <img class="flip-me-hint-with-text" src="assets/icons/flip-me-hint-with-text.svg">
                 <div class="card-text-content">
                     <h3 class="more-air">Instead of ...</h3>
                     <p>... accepting that transformations are <em>inevitably chaotic</em>, more complex and more expensive than planned ...</p>
@@ -227,4 +228,21 @@
 <div class="single-column-text">
     <p class="take-away"><span class="standout">The Semantic Eye Framework guides and supports this change of narrative.</span><br>
     And, no, it does not propose to go back to «waterfall» methodology.</p> 
+</div>
+
+<!-- Process Engineering -->
+<div class="single-column-text">
+    <h2>Process Engineering</h2>
+    <p>The new narrative implies <em>new roles, responsibilities, tools and artefacts</em>.</p>
+    <p>It enables process engineering at the organisational level.</p>
+</div>
+
+<div class="card-container">
+    <div class="image-text-card double-width-card">
+        <img  src="/assets/card-icons/process-engineering.svg" alt="Icon">
+        <div class="card-text-content">
+            <h3>Process Blueprints</h3>
+            <p>The technology partner receives a <em>process blueprint</em> for context and uses it as the <em>contract</em> to implement those activities that need <em>digital automation or support</em>.</p>
+        </div>
+    </div>
 </div>

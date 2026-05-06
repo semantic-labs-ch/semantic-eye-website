@@ -13,198 +13,255 @@
   margin: 20px 0;
   justify-content: center; 
   align-items: stretch;
+}
 
-  .image-text-button-card,
-  .image-text-card,
-  .text-only-card,
-  .image-caption-card,
-  .image-only-card ,
-  .flip-card {
-    width: 325px;
-    /* border: 1px solid red;  // use for analysis */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
+.image-text-button-card,
+.image-text-card,
+.text-only-card,
+.image-caption-card,
+.image-only-card ,
+.flip-card {
+  width: 325px;
+  /* border: 1px solid red;  // use for analysis */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
-  .image-text-button-card,
-  .image-text-card,
-  .text-only-card,
-  .image-caption-card,
-  .image-only-card {
-    display: grid;
-    columns: 1;
-    align-content: start;
-    row-gap: 20px;
-    padding-bottom: 20px;
-    overflow: hidden;
-    border-radius: 8px;
+.image-text-button-card,
+.image-text-card,
+.text-only-card,
+.image-caption-card,
+.image-only-card {
+  display: grid;
+  columns: 1;
+  align-content: start;
+  row-gap: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
 
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-
-  .image-text-button-card {
-    background-color: var(--clr-light);
-    grid-template-rows: auto 1fr auto; /* image - text - button */
-    
-    .card-button {
-      align-self: end;
-      display: inline-block;
-      padding: 8px 16px; 
-      color: var(--clr-light);
-      background-color: var(--clr-dark);
-      text-decoration: none; 
-    }
-  }
-
-  .image-text-card {
-    background-color: var(--clr-light);
-    grid-template-rows: auto 1fr; /* image - text */
-  }
-
-  .text-only-card {
-    padding-top: 20px;
-    background-color: var(--clr-light);
-  }
-
-  .card-text-content { 
-    display: grid;
-    columns: 1;
-    align-content: start;
-    padding: 0 16px;
-  
-    h3 { 
-      margin: 0 0 16px 0;
-    }
-      
-    p,
-    ol,
-    ul,
-    li {
-      margin-top: 0.4rem;
-      color: var(--clr-dark);
-      font-size: 1.2rem; 
-      line-height: 1.6rem;
-    }
-  }
-
-  .image-caption-card {
-    background-color: var(--clr-secondary);
-    row-gap: 10px;
-    padding-bottom: 10px;
-    grid-template-rows: auto 1fr; /* image - figcaption */
-  }
-
-  .image-only-card {
-    background-color: var(--clr-secondary);
-    padding-bottom: 0;
-  }
-
-  .double-width-card {
-    width: 325px;
-  }
-
-  .triple-width-card {
-    width: 325px;
-  }
-
-  .quadruple-width-card {
-    width: 325px;
-  }
-  
-  @media (min-width: 700px) {
-    .double-width-card,
-    .triple-width-card,
-    .quadruple-width-card {
-      width: 670px;
-    }
-  }
-  
-  @media (min-width: 1040px) {
-    .triple-width-card,
-    .quadruple-width-card  {
-      width: 1015px;
-    }
-  }
-  
-  @media (min-width: 1390px) {
-    .quadruple-width-card  {
-      width: 1360px;
-    }
-  }
-
-  .flip-card {
-    background-color: transparent;
-    height: 325px;
-    perspective: 1000px;  /* Remove this if you don't want the 3D effect */
-    
-    .flip-me-hint,
-    .flip-me-hint-with-text {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      z-index: 10;
-    }
-
-    .flip-me-hint-with-text {
-      width: 80px;
-    }
-
-    /* This container is needed to position the front and back side */
-    .flip-card-sides {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-    
-    .flip-card-front,
-    .flip-card-back,
-    .flip-card-image-only {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 8px;
-      -webkit-backface-visibility: hidden;
-      /* Safari */
-      backface-visibility: hidden;
-      background-color: var(--clr-light);
-
-      .card-text-content { 
-        padding-top: 40px;
-      }
-
-      .image-at-bottom {
-        position: absolute;
-        bottom: 40px;
-        left: 0px;
-        width: 325px;
-      }
-    }
-    
-    .flip-card-image-only {
-      
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-      }
-    }
-    
-    .card-text-content {
-      padding: 16px 16px;
-    }
+  img {
+    width: 100%;
+    object-fit: cover;
   }
 }
+
+.image-text-button-card {
+  background-color: var(--clr-light);
+  grid-template-rows: auto 1fr auto; /* image - text - button */
   
-/* Do a horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-sides,
-.flip-card .flip-card-back {
+  .card-button {
+    align-self: end;
+    display: inline-block;
+    padding: 8px 16px; 
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    text-decoration: none; 
+  }
+}
+
+.image-text-card {
+  background-color: var(--clr-light);
+  grid-template-rows: auto 1fr; /* image - text */
+}
+
+.text-only-card {
+  padding-top: 20px;
+  background-color: var(--clr-light);
+}
+
+.card-text-content { 
+  display: grid;
+  columns: 1;
+  align-content: start;
+  padding: 0 16px;
+
+  h3 { 
+    margin: 0 0 16px 0;
+  }
+    
+  p,
+  ol,
+  ul,
+  li {
+    margin-top: 0.4rem;
+    color: var(--clr-dark);
+    font-size: 1.2rem; 
+    line-height: 1.6rem;
+  }
+}
+
+.image-caption-card {
+  background-color: var(--clr-secondary);
+  row-gap: 10px;
+  padding-bottom: 10px;
+  grid-template-rows: auto 1fr; /* image - figcaption */
+}
+
+.image-only-card {
+  background-color: var(--clr-secondary);
+  padding-bottom: 0;
+}
+
+.double-width-card {
+  width: 325px;
+}
+
+.triple-width-card {
+  width: 325px;
+}
+
+.quadruple-width-card {
+  width: 325px;
+}
+
+@media (min-width: 700px) {
+  .double-width-card,
+  .triple-width-card,
+  .quadruple-width-card {
+    width: 670px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .triple-width-card,
+  .quadruple-width-card  {
+    width: 1015px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .quadruple-width-card  {
+    width: 1360px;
+  }
+}
+
+.flip-card {
+  background-color: transparent;
+  height: 325px;
+  perspective: 1000px;  /* Remove to omit 3D effect */
+  cursor: pointer; /* Shows clickable */
+  -webkit-tap-highlight-color: transparent; /* Safari: removes gray flash on tap */
+/*   
+  .flip-me-hint,
+  .flip-me-hint-with-text {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    z-index: 10;
+  }
+
+  .flip-me-hint-with-text {
+    width: 80px;
+  } */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-sides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+  
+/* Do a horizontal flip when mouse is moved over flip box container, or touching container.*/
+/* Flipped state - controlled by JavaScript class */
+.flip-card.flipped .flip-card-sides {
   transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back,
+.flip-card-image-only {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* Safari */
+  background-color: var(--clr-light);
+
+  .card-text-content { 
+    padding-top: 40px;
+  }
+
+  .image-at-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    width: 325px;
+  }
+}
+
+.flip-me-hint-with-text {
+    position: absolute;
+    top: 0px;          /* Slight overlap outside card */
+    left: -2px;
+    z-index: 20;
+    width: 110px;
+    height: auto;
+    pointer-events: none;  /* Let clicks pass through to card */
+}
+
+.flip-card-image-only {
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.card-text-content {
+  padding: 16px 16px;
+  user-select: none;
+  -webkit-touch-callout: none; /* Safari */
+}
+
+/* Back panel starts rotated */
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* MOUSE DEVICE STYLES (hover-based) */
+.mouse-device .flip-card {
+    cursor: pointer;
+}
+
+.mouse-device .flip-card:hover .flip-card-sides {
+    transform: rotateY(180deg);
+}
+
+/* Ensure smooth transition on mouse out */
+.mouse-device .flip-card .flip-card-sides {
+    transition: transform 0.6s ease;
+}
+
+/* TOUCH DEVICE STYLES (click/tap-based) */
+
+.touch-device .flip-card {
+    cursor: pointer;
+}
+
+/* Flipped state - controlled by JavaScript class */
+.touch-device .flip-card.flipped .flip-card-sides {
+    transform: rotateY(180deg);
+}
+
+/* Ensure entire card surface is clickable on touch */
+.touch-device .flip-card-front, 
+.touch-device .flip-card-back,
+.touch-device .flip-card-image-only,
+.touch-device .card-text-content {
+    pointer-events: auto;
+}
+
+/* Prevent text selection on double-tap (mobile) */
+.touch-device .card-text-content {
+    user-select: none;
+    -webkit-touch-callout: none;
 }
