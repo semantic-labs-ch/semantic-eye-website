@@ -138,7 +138,7 @@
 
 <div class="single-column-text">
     <p class="take-away">A construction blueprint is a <em>conceptual, shared model of the future building</em>.<br>
-    It is <em>a binding contract</em> between all involved parties.</p> 
+    It is <em>a binding contract (specification)</em> to all involved parties.</p> 
 </div>
 
 <!-- Changing the Narrative -->
@@ -200,7 +200,7 @@
                 <div class="card-text-content">
                     <h3>... the organisation ...</h3>
                     <p>... turns the requirements into a detailed, <em>aligned semantic solution model</em>.</p>
-                    <p>It makes that model the <em>contract</em> with the technology partner.</p>
+                    <p>It makes that model the <em>contract (specification)</em> with the technology partner.</p>
                 </div>
             </div>
         </div>
@@ -242,7 +242,13 @@
         <img  src="/assets/card-icons/process-engineering.svg" alt="Icon">
         <div class="card-text-content">
             <h3>Process Blueprints</h3>
-            <p>The technology partner receives a <em>process blueprint</em> for context and <em>collaborates</em> to make it the <em>contract</em> for the implementation of those activities that need <em>digital automation or support</em>.</p>
+            <p>The technology partner receives a <em>process blueprint</em> for context, and <em>collaborates</em> to make it the <em>specification</em> for the implementation of those activities that need <em>digital automation or support</em>.</p>
         </div>
     </div>
+</div>
+
+
+<div class="single-column-text">
+    <p class="take-away">The workflow is: <em>understand</em> (= describe, share, align) <em>&mdash; scope &mdash; specify &mdash; implement</em>.<br>
+    <span class="standout">High-quality specifications are the key input for effective AI software development.<span></p> 
 </div>
