@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&Merriweather:ital,opsz,wght@@300;400;500&display=swap" rel="stylesheet">
+        <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/general.css">
         <link rel="stylesheet" href="/styles/header.css">
         <link rel="stylesheet" href="/styles/main.css">
@@ -21,6 +22,7 @@
     </head>
     
     <script type="text/javascript" src="/assets/scripts/flip-cards.js"></script>
+    <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
     <body>
         <header class="header">
     <div class="header-left-section">
@@ -41,11 +43,9 @@
         </div>
     </div>
     <div class="header-middle-section">
-        <input class="search-bar" type="text" placeholder="Search (not yet active)" alt="Search field">
-        <button class="search-button">
-            <img class="search-icon" src="/assets/icons/search.svg" alt="Search button">
-            <div class="tooltip">Search</div>
-        </button>
+        <pagefind-searchbox>
+            
+        </pagefind-searchbox>
     </div>
     <div class="header-right-section">
         <a href="/pages/about/index.html"> <img class="semantic-eye-logo" src="/assets/semantic-eye-logo-for-light-background.svg" alt="semantic eye logo"></a>
