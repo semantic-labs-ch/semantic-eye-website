@@ -14,11 +14,14 @@
   --clr-accent-darker: hsl(from var(--clr-accent) h calc(s * 0.5) l);
   --clr-links-visited:  hsl(from var(--clr-links) h calc(s * 0.4) l);
 
+  --font-family: Roboto, Arial, sans-serif;
+  /* pagefind */
+  --pf-font: var(--font-family);
 }
 
 /* ---- Standard HTML elements ---- */
 body {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: var(--font-family);
   font-weight: lighter;
   color: var(--clr-light);
   background-color: var(--clr-dark);
