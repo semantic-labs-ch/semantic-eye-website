@@ -47,16 +47,18 @@
 }
 
 .image-text-button-card {
+  /* apply to <div> or <a> (if entire card should be clickable) */
   background-color: var(--clr-light);
   grid-template-rows: auto 1fr auto; /* image - text - button */
   
   .card-button {
     align-self: end;
+    justify-self: center;
     display: inline-block;
     padding: 8px 16px; 
     color: var(--clr-light);
     background-color: var(--clr-dark);
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
 
