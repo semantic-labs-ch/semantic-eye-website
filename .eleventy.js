@@ -12,6 +12,11 @@ const markdownItOptions = {
 }
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
+function getBuildDate() {
+    const date = new Date(process.env.BUILD_TIME || Date.now());
+    return date.toISOString().split('T')[0];
+}
+
 module.exports = defineConfig((eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('./src/styles');
     eleventyConfig.addPassthroughCopy('./src/icons');
@@ -22,6 +27,9 @@ module.exports = defineConfig((eleventyConfig) => {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
 
     eleventyConfig.setLibrary('md', markdownLib)
+
+    // Add build date as global data
+    eleventyConfig.addGlobalData("buildDate", getBuildDate());
 
     
     return { 
