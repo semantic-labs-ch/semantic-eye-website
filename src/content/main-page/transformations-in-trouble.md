@@ -35,13 +35,13 @@
 </div>
 
 <div class="single-column-text">
-    <p class="take-away">Today, organisations have no grip on these monumental challenges.</p>
+    <p class="take-away">Today, organisations have no real grip on these monumental challenges.</p>
 </div>
 
 <!-- Looking for Help -->
 <div class="single-column-text">
     <h2>Looking for Help</h2>
-    <p>Being aware of the risks and problems of a digital transformation, organisations seek help from IT partners. This often creates an unholy alliance where <em>«the blind is leading the blind»</em>.</br>Invariably, it leads to domain specialists becoming forever <em>dependent</em> on specific software people &mdash; who usually move on after a few years.</p>
+    <p>Being aware of the risks and problems of a digital transformation, organisations seek help from IT partners. This often creates an unholy alliance where <em>«the blind is leading the blind»</em>.</br>Invariably, it leads to domain specialists becoming forever <em>dependent</em> on specific software people &mdash; who usually move on after a few year and are no longer available.</p>
 </div>
 
 <div class="card-container">

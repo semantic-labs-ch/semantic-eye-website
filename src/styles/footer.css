@@ -14,7 +14,7 @@
   border-width: 1px;
   border-top-style: solid;
 
-  p {
+  p, a {
     font-size: 1rem;
   }
 }

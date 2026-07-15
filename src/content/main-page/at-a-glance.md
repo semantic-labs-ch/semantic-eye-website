@@ -1,8 +1,11 @@
 <!-- The Semantic Eye at a Glance -->
 <div class="single-column-text top-separator">
-    <h1>At a Glance</h1>
-    <p>Too often, digital transformations of organisations and their processes cannot meet essential goals. Some even turn into an existential threat for the organisation. And they always take much longer, cost much more, wear out and frustrate staff, partners and customers.</p>
-    <p class="take-away">Why should organisations do it anyway &mdash; and how can they avoid pitfalls?</p>
+
+# At a Glance
+
+Too often, digital transformations of organisations and their processes cannot meet essential goals. Some even turn into an existential threat for the organisation. And they always take much longer, cost much more, wear out and frustrate staff, partners and customers.
+
+Why should organisations do it anyway &mdash; and how can they avoid pitfalls?{.take-away}
 </div>
 
 <div class="card-container">
@@ -42,14 +45,14 @@
         </div>
     </div>
 </div>
-<div class="take-away">
-    <p>The Semantic Eye Framework digitalises the digital transformation of organisations.</p>
-</div>
 
-<!-- Is this for you? -->
 <div class="single-column-text">
-    <h2>Is the Semantic Eye Framework for YOU?</h2>
-    <p>We respect your time, so let's first ensure you will get good mileage out of this page!</p>
+
+The Semantic Eye Framework digitalises the digital transformation of organisations.{.take-away}
+
+## Is the Semantic Eye Framework for YOU?
+
+We respect your time, so let's ensure you will get good mileage out of this page!
 </div>
 
 <div class="card-container">
@@ -80,6 +83,8 @@
         </div>
     </div>
 </div>
-<div class="take-away">
-    <p>In short, when <em>humans and machines collaborate through tasks and activities</em>, they benefit from the Semantic Eye Framework.</p>
+
+<div class="single-column-text">
+
+In short, wherever <em>humans collaborate through tasks and activities to achieve goals</em>, typically assited by software or machines,, the Semantic Eye Framework makes collaborations and processes understandable, understood and future-proof.{.take-away}
 </div>

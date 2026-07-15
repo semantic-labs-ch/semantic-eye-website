@@ -44,7 +44,7 @@
 }
 
 .footnote {
-  font-weight: ligher;
+  font-weight: lighter;
   font-size: 1.0rem;
   line-height: 1.4rem;
   text-align: start;
@@ -92,25 +92,25 @@
   p {
     margin-top: 0;
   }
-  font-size: 1.2rem;
-  padding: 0.8rem 1.6rem;
+  flex: 1;
+  max-width: 816px;
+  padding: 0.8rem 12px;
   margin: 1.5rem 0;
   justify-self: center;
+  font-size: 1.2rem;
   font-weight: normal;
   text-align: center;
+  break-inside: avoid;
 }
 
 .subtitle {
   color: var(--clr-primary);
   background-color: var(--clr-dark-lighter);
-  break-inside: avoid;
 }
 
 .take-away {
-  max-width: 800px;
   color: var(--clr-primary);
   background-color: var(--clr-secondary);
-  break-inside: avoid;
 }
 
 .standout {
@@ -135,7 +135,10 @@
 /* Narrower lines = Better readability: */
 .single-column-text, 
 .two-column-text-container {
+  width: 100%;
   max-width: 840px;
+  display: flex;
+  flex-direction: column;
   margin-inline: auto;
 }
 
@@ -172,7 +175,7 @@
 .multi-column-text > ul > li,
 .multi-column-text a {
   font-family: serif;
-  font-weight: ligher;
+  font-weight: lighter;
   font-size: 1.3rem;
 }
 
@@ -221,6 +224,9 @@
   margin-inline: auto;
 }
 
+.inline-image {
+  display: inline-block;
+}
 
 /* Collapsible content */
 

@@ -99,6 +99,14 @@ em {
   font-style: normal;
 }
 
+sup {
+  font-size: 70%;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  line-height: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
