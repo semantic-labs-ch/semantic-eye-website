@@ -86,7 +86,7 @@
   ol,
   ul,
   li {
-    margin-top: 0.4rem;
+    margin-top: 0.6rem;
     color: var(--clr-dark);
     font-size: 1.2rem; 
     line-height: 1.6rem;
@@ -140,7 +140,7 @@
 
 .flip-card {
   background-color: transparent;
-  height: 325px;
+  height: 400px;
   perspective: 1000px;  /* Remove to omit 3D effect */
   cursor: pointer; /* Shows clickable */
   -webkit-tap-highlight-color: transparent; /* Safari: removes gray flash on tap */

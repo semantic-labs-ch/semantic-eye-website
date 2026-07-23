@@ -38,10 +38,11 @@ Why should organisations do it anyway &mdash; and how can they avoid pitfalls?{.
         <div class="card-text-content">
             <h3>Reach Transformation Goals</h3>
             <p>The <span class="standout">Semantic Eye Framework</span> leads organisations to  <em>transformation success</em>.</p>
-            <p>It greatly reduces transformation risks through its</p>
+            <p>It <span class="standout">greatly reduces transformation risks</span> through its</p>
             <p>&ndash; <em>strong methodology</em><br>
             &ndash; <em>effective guidance</em><br>
-            &ndash; <em>powerful digital tools</em>.</p>
+            &ndash; <em>powerful digital tools</em><br>
+            &ndash; <em>best practises</em>.</p>
         </div>
     </div>
 </div>

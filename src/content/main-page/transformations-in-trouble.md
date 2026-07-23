@@ -46,33 +46,31 @@
 
 <div class="card-container">
     <div class="image-text-card">
-        <img  src="/assets/transformation-risks/sheep-on-tractor-1.jpg" alt="Cartoon of two sheep riding fast on an old tractor">
+        <img  src="/assets/card-icons/worship-it.svg" alt="Praying hands in forground, developer in background">
         <div class="card-text-content">
-            <h3>Travel Alone</h3>
+            <h3>High Hopes in IT</h3>
             <p>Organisations try to <em>offload the truly staggering complexity</em> of their own domain to a digital-solution partner.</p>
         </div>
     </div>
     <div class="image-text-card">
-        <img  src="/assets/transformation-risks/sheep-on-tractor-2.jpg" alt="Cartoon of one sheep on an old tractor run into a tree">
+        <img  src="/assets/card-icons/poker-face.svg" alt="A hand of loosing poker cards (2,7,4)">
         <div class="card-text-content">
-            <h3>Rather than with a Fool</h3>
+            <h3>Poker Face</h3>
             <p>The technology partner <em>cannot handle organisational complexity either</em> but takes the challenge anyway.</p>
         </div>
     </div>
     <div class="image-text-card">
-        <img  src="/assets/transformation-risks/sheep-walking.jpg" alt="Cartoon of a sheep walking on two legs">
+        <img  src="/assets/card-icons/dev-king.svg" alt="A developer with a crown">
         <div class="card-text-content">
-            <h3>To Reach Enlightenment</h3>
-            <p>With the technology partner in the lead, the «game» is played on technology turf and with a <em>fixation on software code</em>.</p>
+            <h3>IT controls Business</h3>
+            <p>With the technology partner in the lead, the «game» is played on technology turf and with a<br><em>fixation on software code</em>.</p>
         </div>
     </div>
 </div>
-<figcaption class="single-column-text">
-    <p>(Cartoons from «Buddhism for Sheep», <a href="/pages/references/index.html#1">[1]</a>)</p>
-</figcaption>
 
 <div class="single-column-text">
-    <p class="take-away">The outcome is exactly what organisations should avoid: <em>all critical domain knowledge</em> ends up in the software code that only its developers fully understand.</p>
+    <p class="take-away">The outcome is exactly what organisations should avoid: <em>all critical domain knowledge</em> ends up in the software code that only its developers fully understand.<br>
+    <span class="standout">This is not a technical necessity, it is a <em>serious governance problem</em>.</span></p>
 </div>
 
 <!-- Lack of Methodology and Tools -->
@@ -104,5 +102,5 @@
 
 <div class="single-column-text">
     <p class="take-away">A construction blueprint is a <em>conceptual, shared model of the future building</em>.<br>
-    It is <em>a binding contract (specification)</em> for all involved parties.</p> 
+    It is <em>a binding contract (specification)</em> for all involved parties.</p>
 </div>

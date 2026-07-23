@@ -44,8 +44,9 @@ We need to fundamentally change the nature of digital transformation in four key
             <div class="flip-card-back">
                 <div class="card-text-content">
                     <h3>... the organisation ...</h3>
-                    <p>... first creates a solid <em>shared view of the future</em>.</p>
-                    <p>Next it evaluates and chooses its <em>technology platforms</em> and <em>technology partners</em>.</p>
+                    <p>... takes <em>full responsibility</em> for<br>its digital future.</p>
+                    <p>First, it creates a solid<br><em>shared view of the future</em>.</p>
+                    <p>Next, it evaluates and chooses its <em>technology platforms</em> and <em>technology partners</em>.</p>
                     <p>Then it <em>leads</em> its own transformation.</p>
                 </div>
             </div>
